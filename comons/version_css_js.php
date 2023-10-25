@@ -1,0 +1,1 @@
+<?php $ver = '2' . date('ym');

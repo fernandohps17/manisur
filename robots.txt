@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: /App/
+Disallow: /contact/
+Disallow: /public/
+
+Sitemap: https://www.manisur.com/sitemap.xml

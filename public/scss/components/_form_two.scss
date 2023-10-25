@@ -1,0 +1,125 @@
+@import './vars';
+
+.bg_form_two {
+    background: $color_principal;
+}
+
+.form_contact_two {
+    margin: 70px 0;
+    display: grid;
+    gap: 30px;
+}
+
+.from_contact_two_title {
+    color: white;
+    font-size: 27px;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 24px;
+    }
+
+    @media screen and (max-width: 900px) {
+        font-size: 19px;
+    }
+}
+
+.spacing_title {
+    display: grid;
+    gap: 10px;
+}
+
+.from_contact_two_from_display {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+
+    @media screen and (max-width:1200px) {
+        gap: 50px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+    }
+}
+
+.from_contact_two_from_input {
+    color: white;
+    display: grid;
+    gap: 15px;
+    width: 100%;
+    font-size: 20px;
+
+    input {
+        height: 37px;
+        border: none;
+        outline: none;
+        padding: 10px;
+        font-family: 'Aleo';
+    }
+}
+
+.from_contact_two_from_spacing {
+    display: grid;
+    gap: 20px;
+}
+
+.from_contact_two_from_input_textarea {
+    color: white;
+    font-size: 20px;
+    display: grid;
+    gap: 20px;
+
+    textarea {
+        resize: none;
+        border: none;
+        outline: none;
+        padding: 10px;
+        font-family: 'Aleo';
+    }
+}
+
+.from_contact_two_from_input_checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    padding: 20px 0;
+    font-size: 20px;
+
+    a {
+        color: white;
+        transition: 1s ease;
+
+        &:hover {
+            color: $color_terciario;
+        }
+    }
+}
+
+.from_contact_two_button {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        padding: 15px 30px;
+        background: $color_terciario;
+        color: $color_principal;
+        font-family: 'Aleo';
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 1s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}

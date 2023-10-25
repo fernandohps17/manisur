@@ -1,0 +1,137 @@
+@import './vars';
+
+.blog_post {
+    display: grid;
+    // grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0;
+    position: relative;
+    // margin: 50px 0;
+
+    @media screen and (max-width: 500px) {
+        gap: 5px;
+    }
+}
+
+.arrow_right_blog {
+    position: absolute;
+    right: -40px;
+    top: 40%;
+    cursor: pointer;
+    transition: 1s ease;
+    z-index: 9;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+    
+    svg {
+        fill: #d5d5d5;
+        width: 100px;
+
+        @media screen and (max-width: 600px) {
+            width: 50px;
+            background-color: #7d7d7d;
+            transition: 1s ease;
+
+            &:hover {
+                background: #545454;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1020px) {
+        right: 0;
+    }
+}
+
+.arrow_left_blog {
+    position: absolute;
+    left: -10px;
+    top: 40%;
+    cursor: pointer;
+    transition: 1s ease;
+    z-index: 9;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    svg {
+        fill: #d5d5d5;
+        width: 100px;
+
+        @media screen and (max-width: 600px) {
+            width: 50px;
+            background-color: #7d7d7d;
+            transition: 1s ease;
+
+            &:hover {
+                background: #545454;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1020px) {
+        left: 0;
+    }
+}
+
+.blog_post_card {
+    background: #ececec;
+    width: 400px;
+    height: 450px;
+
+    @media screen and (max-width: 500px) {
+        width: 350px;
+    }
+}
+
+.blog_post_card_img {
+
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+.blog_post_card_content {
+    padding: 20px;
+    text-align: center;
+    
+    section {        
+        display: grid;
+        gap: 5px;
+    }
+
+    @media screen and (max-width: 500px) {
+        padding: 20px 50px;
+    }
+}
+
+.blog_post_card_content_title {
+    color: $color_principal;
+    font-size: 20px;
+
+    @media screen and (max-width: 500px) {
+        h2 {
+            font-size: 19px !important;
+        }
+    }
+}
+
+.blog_post_card_content_subtitle {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 22px;
+
+    @media screen and (max-width: 500px) {
+        p {
+            font-size: 16px !important;
+        }
+    }
+}

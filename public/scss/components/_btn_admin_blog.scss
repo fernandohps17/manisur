@@ -1,0 +1,153 @@
+.btns-admin-blog {
+  bottom: 55px;
+  left: 15px;
+  position: fixed;
+  z-index: 99999999;
+
+  .content-btm {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btm-admin {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    transition: transform 0.5s ease;
+
+    i {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      width: 65px;
+      height: 65px;
+      font-size: 29px;
+    }
+  }
+
+  .btm-primary {
+    z-index: 999;
+    cursor: pointer;
+
+    i {
+      box-shadow: $shadow;
+      background-color: #15d8d7;
+    }
+  }
+
+  .btm-secundary1,
+  .btm-secundary2,
+  .btm-secundary3,
+  .btm-secundary4 {
+    z-index: 99;
+
+    i {
+      background-color: #2b2c6b;
+      box-shadow: none;
+    }
+  }
+
+  .btm-primary.active-btm {
+    transform: rotateZ(360deg);
+  }
+
+  .btm-primary.active-btm ~ .btm-secundary1 {
+    transform: translateY(-120%);
+
+    p {
+      display: grid;
+    }
+
+    svg {
+      fill: white;
+    }
+
+    i {
+      box-shadow: $shadow;
+    }
+  }
+  .btm-primary.active-btm ~ .btm-secundary2 {
+    transform: translateY(-240%);
+
+    i {
+      box-shadow: $shadow;
+    }
+  }
+  .btm-primary.active-btm ~ .btm-secundary3 {
+    transform: translateY(-360%);
+
+    i {
+      box-shadow: $shadow;
+    }
+  }
+
+  .btm-primary.active-btm ~ .btm-secundary4 {
+    transform: translateY(-480%);
+
+    i {
+      box-shadow: $shadow;
+    }
+  }
+}
+
+@media only screen and (max-width: 1899px) and (min-width: 1800px) {
+}
+@media only screen and (max-width: 1799px) and (min-width: 1700px) {
+}
+@media only screen and (max-width: 1699px) and (min-width: 1400px) {
+  .btns-admin-blog {
+    .btm-admin {
+      i {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1599px) and (min-width: 1500px) {
+}
+@media only screen and (max-width: 1499px) and (min-width: 1400px) {
+}
+@media only screen and (max-width: 1399px) and (min-width: 500px) {
+  .btns-admin-blog {
+    bottom: 43px;
+  }
+  .btns-admin-blog .btm-admin i {
+    width: 45px;
+    height: 45px;
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 1299px) and (min-width: 1200px) {
+}
+@media only screen and (max-width: 1199px) and (min-width: 1100px) {
+}
+@media only screen and (max-width: 1099px) and (min-width: 1000px) {
+}
+@media only screen and (max-width: 999px) and (min-width: 900px) {
+}
+@media only screen and (max-width: 899px) and (min-width: 800px) {
+}
+@media only screen and (max-width: 799px) and (min-width: 700px) {
+}
+@media only screen and (max-width: 699px) and (min-width: 600px) {
+}
+@media only screen and (max-width: 599px) and (min-width: 500px) {
+}
+@media only screen and (max-width: 499px) {
+  .btns-admin-blog {
+    bottom: 38px;
+  }
+  .btns-admin-blog .btm-admin i {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 399px) and (min-width: 300px) {
+}
+@media only screen and (max-width: 299px) {
+}

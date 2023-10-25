@@ -1,0 +1,88 @@
+@import './vars';
+
+// Section Footer
+.bg_footer1 {
+    background: $color_principal_footer;
+}
+
+.section_footer_politicas {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 100px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.section_footer_politicas_enlaces {
+    display: flex;
+    gap: 20px;
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 19px;
+        position: relative;
+        transition: 1s ease;
+
+        &::after {
+            content: "|";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: -14px;
+        }
+
+        &:last-child {
+            &::after {
+                display: none;
+            }
+        }
+    }
+
+    a:hover {
+        color: $color_secundario ;
+    }
+
+    @media screen and (max-width: 900px) {
+        display: grid;
+        grid-auto-flow: row;
+
+        a {
+            &::after {
+                display: none;
+            }
+        }
+    }
+}
+
+.bg_footer2 {
+    background: $color_secundario_footer;
+}
+
+.section_footer_derechos {
+    padding: 20px 0;
+
+    .parrafo_uno {
+        text-align: center;
+        color: white;
+        font-size: 19px;
+        margin-bottom: 5px;
+    }
+
+    .parrafo_dos {
+        text-align: center;
+        color: $color_p_footer;
+        font-size: 19px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color_p_footer;
+        transition: 1s ease;
+
+        &:hover {
+            color: $color_secundario;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+@import './vars';
+
+.error {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 70px 0;
+}
+
+.error_title {
+    color: $color_principal;
+    font-size: 20px;
+}
+
+.error_subtitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.error_btn {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: $color_principal;
+    padding: 15px 10px;
+    width: 200px;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #bdbcbc;
+
+    &:hover {
+        background-color: $color_terciario;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}

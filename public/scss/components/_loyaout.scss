@@ -1,0 +1,53 @@
+@import './vars';
+
+@font-face {
+    font-family: "Aleo";
+    font-display: swap;
+    src: url(../font/Aleo-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid !important;
+    grid-template-columns: 1fr 9fr 1fr !important;
+}
+
+.content {
+    display: grid !important;
+    grid-column: 2/3 !important;
+    max-width: 1300px !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+}
+
+body {
+    font-family: 'Aleo' !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.title {
+    color: $color_principal;
+    font-size: 23px;
+
+    @media screen and (max-width: 500px) {
+        font-size: 19px;
+        text-align: center;
+    }
+}
+
+.subtitle {
+    font-size: 19px;
+}
+
+#google_translate_element,
+.skiptranslate {
+    display: none;
+}

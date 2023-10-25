@@ -1,0 +1,176 @@
+@import "./components/aconfing";
+@import "./components/style";
+@import "components/layout.scss";
+@import "components/layout2.scss";
+@import "components/fontawesome";
+@import "components/btn_admin_blog";
+
+.error-post {
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7676;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.login {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+    .error-login {
+        color: red;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 1em;
+    }
+
+    form {
+        display: grid;
+        grid-row-gap: 2em;
+        background-color: #2b2c6b;
+        padding: 3em;
+        border-radius: 5px;
+        box-shadow: $shadow;
+        margin: 4em 0;
+        width: 25em;
+
+        .group {
+            display: grid;
+            grid-row-gap: 13px;
+
+            a {
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                transition: color 0.1s ease;
+                font-weight: bold;
+
+                &:hover {
+                    color: white;
+                }
+            }
+
+            label {
+                color: white;
+                font-size: 24px;
+            }
+
+            input {
+                height: 37px;
+                border: none;
+                border-bottom: 1px solid white;
+                background-color: transparent;
+                color: white;
+                font-size: 23px;
+                width: 100%;
+            }
+
+            button {
+                display: grid;
+                justify-self: center;
+                background-color: #15d8d7;
+                border: none;
+                color: white;
+                padding: 10px 24px;
+                border-radius: 9px;
+                box-shadow: $shadow;
+                font-size: 20px;
+                transition: background 0.2s ease-in-out;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #767cb6;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1899px) and (min-width: 1800px) {}
+
+@media only screen and (max-width: 1799px) and (min-width: 1700px) {}
+
+@media only screen and (max-width: 1699px) and (min-width: 1600px) {}
+
+@media only screen and (max-width: 1599px) and (min-width: 1500px) {}
+
+@media only screen and (max-width: 1499px) and (min-width: 1400px) {}
+
+@media only screen and (max-width: 1399px) and (min-width: 500px) {
+    .login {
+        form {
+            width: 21em;
+
+            .group {
+                label {
+                    font-size: 19px;
+                }
+
+                input {
+                    height: 37px;
+                    font-size: 19px;
+                }
+
+                button {
+                    font-size: 17px;
+                    padding: 7px 18px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1299px) and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) and (min-width: 1100px) {}
+
+@media only screen and (max-width: 1099px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 900px) {}
+
+@media only screen and (max-width: 899px) and (min-width: 800px) {}
+
+@media only screen and (max-width: 799px) and (min-width: 700px) {}
+
+@media only screen and (max-width: 699px) and (min-width: 600px) {}
+
+@media only screen and (max-width: 599px) and (min-width: 500px) {}
+
+@media only screen and (max-width: 499px) {
+    .login {
+        .error-login {
+            font-size: 15px;
+        }
+
+        form {
+            width: 15em;
+            margin: 2em 0;
+            padding: 2em;
+
+            .group {
+                grid-row-gap: 8px;
+
+                label {
+                    font-size: 16px;
+                }
+
+                input {
+                    height: 35px;
+                    font-size: 17px;
+                }
+
+                button {
+                    font-size: 14px;
+                    padding: 7px 18px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 399px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 299px) {}

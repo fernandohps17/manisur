@@ -1,0 +1,130 @@
+@import "./components/aconfing";
+@import "./components/style";
+@import "components/layout.scss";
+@import "components/layout2.scss";
+@import "components/btn_admin_blog";
+@import "components/fontawesome";
+
+p {
+  margin: 0px;
+}
+.container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.yes-url {
+  color: #15d8d7;
+}
+.no-url {
+  color: red;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+.phones .phone p {
+  margin: 0px;
+}
+
+.error-post {
+  justify-content: center;
+  align-items: center;
+  background-color: #ff7676;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.create-post {
+  display: grid;
+  grid-row-gap: 2em;
+  margin: 2em 0;
+
+  form {
+    display: grid;
+    grid-row-gap: 5px;
+
+    .gruop {
+      display: grid;
+      grid-row-gap: 10px;
+
+      input {
+        height: 36px;
+        border: 1px solid #e0e0e0;
+      }
+
+      .label-file {
+        display: grid;
+        justify-self: center;
+        background-color: #2b2c6b;
+        color: white;
+        padding: 9px 18px;
+        border-radius: 9px;
+        box-shadow: $shadow;
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+
+        &:hover {
+          transform: scale(0.95);
+        }
+      }
+
+      .d-none {
+        display: none;
+      }
+
+      .text-description {
+        width: 100%;
+        border: 1px solid #e0e0e0;
+        height: 5em;
+      }
+
+      .area-content {
+      }
+    }
+
+    .public-post {
+      display: grid;
+      grid-auto-flow: column;
+      justify-content: start;
+      align-items: center;
+      margin: 1em 0;
+      grid-column-gap: 10px;
+
+      label {
+        cursor: pointer;
+      }
+    }
+
+    #show-img {
+      display: grid;
+      justify-self: center;
+      width: 18em;
+      box-shadow: $shadow;
+      margin: 1em;
+    }
+
+    button {
+      display: grid;
+      justify-self: center;
+      background-color: #15d8d7;
+      color: #fff;
+      padding: 9px 18px;
+      border-radius: 9px;
+      box-shadow: $shadow;
+      cursor: pointer;
+      transition: transform 0.2s ease-in-out;
+      font-size: 15px;
+      border: none;
+      font-weight: bold;
+
+      &:hover {
+        transform: scale(0.95);
+        background-color: #2b2c6b !important;
+      }
+    }
+  }
+}
