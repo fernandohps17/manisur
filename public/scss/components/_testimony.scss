@@ -123,3 +123,27 @@
   justify-content: space-between;
   margin-bottom: 10px;
 }
+
+.btn_jobs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // margin: 50px 0;
+  margin: auto;
+  
+  
+  a {
+    border-radius: 10px;
+    background-color: $color_principal;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: white;
+    transition: 1s ease;
+    box-shadow: 2px 2px 4px gray;
+    font-size: 18px;
+
+    &:hover {
+      background-color: $color_terciario;
+    }
+  }
+}

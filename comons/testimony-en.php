@@ -1,7 +1,7 @@
 <section>
   <header class="title">
     <h2>
-    OUR JOBS
+      OUR JOBS
     </h2>
   </header>
 </section>
@@ -42,21 +42,21 @@
       <!-- <div class="blog_post_card"> -->
 
 
-        <?php
-        // session_start();
+      <?php
+      // session_start();
 
-        require_once($_SERVER["DOCUMENT_ROOT"] . "/our-jobs/components/data/dataPageBlog.php");
-        // require_once($_SERVER["DOCUMENT_ROOT"] . "/blog/components/header.php");
-        // require_once($_SERVER["DOCUMENT_ROOT"]."/blog/components/slider.php");
-        require_once($_SERVER["DOCUMENT_ROOT"] . "/our-jobs/components/listsPostsHome.php");
-        // require_once($_SERVER["DOCUMENT_ROOT"] . "/blog/components/footer.php");
-
-
-        ?>
+      require_once($_SERVER["DOCUMENT_ROOT"] . "/our-jobs/components/data/dataPageBlog.php");
+      // require_once($_SERVER["DOCUMENT_ROOT"] . "/blog/components/header.php");
+      // require_once($_SERVER["DOCUMENT_ROOT"]."/blog/components/slider.php");
+      require_once($_SERVER["DOCUMENT_ROOT"] . "/our-jobs/components/listsPostsHome.php");
+      // require_once($_SERVER["DOCUMENT_ROOT"] . "/blog/components/footer.php");
 
 
+      ?>
 
-        <!-- <div class="blog_post_card_img">
+
+
+      <!-- <div class="blog_post_card_img">
           <picture class="picture-defer">
             <source class="image source" type='image/webp' data-img="./public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-sede1.webp">
             <img class="image" data-img="./public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-sede1.jpg" alt="Manisur quienes somos" title="Manisur quienes somos" width="100" height="100">
@@ -78,3 +78,7 @@
     </div>
   </div>
 </div>
+
+<div class="btn_jobs">
+  <a href="/our-jobs/">See our works</a>
+</div><br><br>
