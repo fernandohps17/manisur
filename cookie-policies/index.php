@@ -186,10 +186,113 @@ require_once "../comons/version_css_js.php";
                         <header class="politicas_title">
                             <h1>COOKIE POLICIES</h1>
                         </header>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>1. WHAT ARE COOKIES?</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">This website uses cookies and/or similar technologies that store and retrieve information when you browse. In general, these technologies can serve very different purposes, such as, for example, recognizing you as a user, obtaining information about your browsing habits, or personalizing the way in which content is displayed. The specific uses we make of these technologies are described below.</p>
+                        <p class="politicas_content_paragrah">Cookies are essential for the functioning of the Internet; They cannot damage the user's equipment/device and, if they are activated in the settings of your browser, they help identify and resolve possible errors in the operation of the Website.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>2. USE OF COOKIES</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">On our Website, we may collect information about your computer, terminal, etc., including, where applicable, your IP address, operating system and browser type, through a series of our own and third-party Cookies. In general, we obtain statistical data about how you navigate our website, which helps us improve it and provide you with a better, more personalized service.</p>
+                        <p class="politicas_content_paragrah">These cookies may occasionally allow us to estimate usage numbers and patterns, store information about your preferences and personalize our website according to your individual interests, speed up your searches, recognize you when you return to our site or send you advertising.</p>
+                        <p class="politicas_content_paragrah">We inform you that, if consent is given on your part, you will have accepted its use, so that we can carry out the processing of personal data, either through the use of the appropriate parameters of the browser or other applications, for which which can proceed with its configuration during its installation or update.</p>
+                        <p class="politicas_content_paragrah">
+                        You can refuse to accept our cookies by activating the rejection of cookies in your browser settings. We expressly warn you that if you select this setting, you may not be able to access certain areas of our website, or you may not be able to benefit from some of our products and/or services.
+                        </p>
+                        <p class="politicas_content_paragrah">
+                        This will not prevent the possible storage or access of a technical nature through specific cookies for the sole purpose of carrying out the transmission of a communication over an electronic communications network or, to the extent strictly necessary, for the provision of the service expressly requested and which are essential to guarantee navigation on our site and the use of the services offered therein.
+                        </p>
+                        <p class="politicas_content_paragrah">
+                        We inform you that if your browser settings do not reject cookies, our system will produce cookies when you connect to our site.
+                        </p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>3. TYPES OF COOKIES WE USE</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">The Cookies we use, depending on their permanence, can be divided into: Session or permanent Cookies. The first are temporary and are no longer used when the User closes the browser. The latter are maintained until the service for which they are used is provided (for example, so that the User remains identified in our services) or when they are manually deleted.</p>
+                        <p class="politicas_content_paragrah">On the other hand, Cookies can be classified as follows:
+                            <li><b>TECHNICAL COOKIES:</b> Technical cookies are essential so that you can move around a website and use its functions. In general, these cookies enable the different functions of the website, make your browsing more secure or provide functionalities that are previously requested by you. As they are necessary for the site to function, these cookies will be activated by default and cannot be denied.</li>
+                            <li><b>PREFERENCES OR PERSONALIZATION COOKIES:</b> They allow you to access the service with some predefined general characteristics based on a series of criteria on the user's terminal, such as the language, the type of browser through which you access the service, the regional configuration from which you access the service. service, etc.</li>
+                            <li><b>ANALYSIS COOKIES:</b> They allow the person responsible for them to monitor and analyze the behavior of the users of the websites to which they are linked. The information collected through this type of cookies is used to measure the activity of the websites, applications or platforms and to prepare navigation profiles of the users of said sites, applications and platforms, in order to introduce improvements in based on the analysis of usage data made by users of the service.</li>
+                            <li><b>ADVERTISING COOKIES:</b> This type of “Cookies” allows us to expand the information of advertising advertisements. They could store the duration or frequency of viewing 5 advertising samples, browsing patterns and/or behaviors that facilitate a profile of commercial interest and offer advertising, related to the visitor's interests.</li>
+                            <li><b>BEHAVIORAL ADVERTISING COOKIES:</b> They store information on user behavior obtained through continuous observation of their browsing habits, which allows the development of a specific profile to display advertising based on it.</li>
+                            <li><b>EXTERNAL SOCIAL NETWORK COOKIES:</b> They are used so that visitors can interact with the content of different social platforms (facebook, youtube, twitter, linkedIn, etc.) and are generated only for the users of said social networks. The conditions of use of these cookies and the information collected are regulated by the privacy policy of the corresponding social platform.</li>
+                        </p>
+
+                        <p class="politicas_content_paragrah">In summary, for your information, know that we use the following:</p>
+                        
+                        <table border="1">
+                            <tr>
+                                <th>Cookies</th>
+                                <th>Purpose of the cookie</th>
+                                <th>Duration</th>
+                                <th>Entity that uses cookies</th>
+                                <th>More information</th>
+                            </tr>
+                            <tr align="center" class="td">
+                                <td>Place by IT</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>Place by IT</td>
+                            </tr>
+                            <tr align="center" class="td">
+                                <td>Place by IT</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>Place by IT</td>
+                            </tr>
+                            <tr align="center" class="td">
+                                <td>Place by IT</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>Place by IT</td>
+                            </tr>
+                        </table>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>4. HOW TO MANAGE COOKIES</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">The Cookies we use, depending on their permanence, can be divided into: Session or permanent Cookies. The first are temporary and are no longer used when the User closes the browser. The latter are maintained until the service for which they are used is provided (for example, so that the User remains identified in our services) or when they are manually deleted.</p>
+                        <p class="politicas_content_paragrah">You can block and delete cookies by changing your browser settings. To manage cookies, most browsers allow you to reject or accept all cookies or only accept certain types of cookies. The process for managing and deleting cookies can be found in the help function built into the browser. If you wish to limit the use of cookies, you will not be able to use all the interactive features of our website.</p>
+                        <p class="politicas_content_paragrah">Likewise, you can allow, block or delete cookies installed on your computer by configuring the options of the browser installed on your computer.:
+                            <li><b>Firefox:</b> <a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web">https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web...</a></li>
+                            <li><b>Chrome:</b> <a href="https://support.google.com/accounts/answer/61416?hl=es">https://support.google.com/accounts/answer/61416?hl=es</a></li>
+                            <li><b>Explorer:</b> <a href="https://support.microsoft.com/es-es/help/17442/windows-internetexplorer-dele">https://support.microsoft.com/es-es/help/17442/windows-internetexplorer-dele</a></li>
+                            <li><b>Safari:</b> <a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac"> https://support.apple.com/es-es/guide/safari/sfri11471/mac</a></li>
+                            <li><b>Opera:</b> <a href="https://help.opera.com/Windows/11.50/es-ES/cookies.html">https://help.opera.com/Windows/11.50/es-ES/cookies.html</a></li>
+                        </p>
+                        <p class="politicas_content_paragrah">In addition, you can also manage the cookie store in your browser through tools such as the following:</p>
+                        <p class="politicas_content_paragrah">Ghostery: <a href="www.ghostery.com">www.ghostery.com</a></p>
+                        <p class="politicas_content_paragrah">Your online choices: <a href="www.youronlinechoices.com/es">www.youronlinechoices.com/es</a></p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>5. SETTING UP ADS ON OTHER PLATFORMS</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">As with computer browsers, mobile device browsers allow you to make changes to privacy options or settings to disable or delete cookies.</p>
+                        <p class="politicas_content_paragrah">If you wish to modify your privacy options, follow the instructions specified by the developer of your mobile browser.</p>
+                        <p class="politicas_content_paragrah">Below you can find some examples of links that will guide you to modify the privacy options on your mobile device:</p>
+                        <p class="politicas_content_paragrah">
+                            <a href="Safari para IOS">Safari for iOS</a>
+                        </p>
+                        <p class="politicas_content_paragrah">
+                            <a href="Chrome para Android">Chrome for Android</a>
+                        </p>
                     </section>
                 </div>
             </div>

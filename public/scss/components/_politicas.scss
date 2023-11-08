@@ -1,7 +1,7 @@
 @import './vars';
 
 .politicas {
-    display: flex;
+    display: grid;
     gap: 20px;
     margin: 70px 0;
 }
@@ -15,4 +15,35 @@
 .politicas_spacing {
     display: grid;
     gap: 20px;
+}
+
+.politicas_content {
+    display: grid;
+    gap: 10px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+
+.politicas_content_subtitle {
+    color: $color_principal;
+}
+
+.politicas_content_paragrah {
+
+    span {
+        color: red;
+    }
+}
+
+.politicas_content_paragrah_box {
+    display: grid;
+    gap: 10px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.td {
+    color: red;
 }

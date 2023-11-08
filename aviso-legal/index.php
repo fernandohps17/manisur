@@ -128,10 +128,126 @@ require_once "../comons/version_css_js.php";
                         <header class="politicas_title">
                             <h1>AVISO LEGAL</h1>
                         </header>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
+                    </section><br>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>1. OBJETO Y ÁMBITO DE APLICACIÓN DE LAS CONDICIONES DE UTILIZACIÓN DE LA WEB</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">Las presentes Condiciones tienen por objeto regular el acceso gratuito a los contenidos de la web www.manisur.com titularidad de MANISUR 2005, S.L.U.  (en lo sucesivo y en toda la web como MANISUR), por el Usuario a través de la Web. El sitio web www.manisur.com, en adelante el Portal o página Web, se rige por la normativa exclusivamente aplicable en España, quedando sometida a ella, tanto nacionales como extranjeros que utilicen esta web.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>2. TITULARIDAD DE LA WEB Y MEDIOS DE CONTACTO</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">En cumplimiento de la Ley 34/2002 de Servicios de la Sociedad de la Información y de Comercio Electrónico de España, le informamos que esta página Web es propiedad de MANISUR 2005, S.L.U.   siendo sus datos identificativos:</p>
+                        <p class="politicas_content_paragrah">Denominación social: MANISUR 2005, S.L.U. , en adelante MANISUR.</p>
+                        <p class="politicas_content_paragrah">NIF: B11804804 </p>
+                        <p class="politicas_content_paragrah">Domicilio social:  CL. CHOCO, 8 (P.I. TRES CAMINOS) - 11510 PUERTO REAL (CÁDIZ)</p>
+                        <p class="politicas_content_paragrah"><span>Inscrita en el Registro Mercantil de LOCALIDAD:  · Tomo TOMO· Folio NUMERO DE FOLIO · Hoja nº NÚMERO DE HOJA – Inscripción INSCRIPCIÓN.</span></p>
+                        <p class="politicas_content_paragrah"><span>Título académico oficial, datos del colegio profesional y número de colegiado (si ejerce una profesión regulada).</span></p>
+                        <p class="politicas_content_paragrah">Para comunicarse con nosotros, ponemos a su disposición los siguientes medios de contacto:</p>
+                        <p class="politicas_content_paragrah"><b>Tfno:</b> 956888601</p>
+                        <p class="politicas_content_paragrah"><b>Email:</b> administracion@manisur.com</p>
+                        <p class="politicas_content_paragrah">Todas las notificaciones y comunicaciones entre los usuarios y MANISUR se considerarán eficaces, a todos los efectos, cuando se realicen a través de cualquier medio de los detallados anteriormente.</p>
+
+                        <div class="politicas_content_paragrah_box">
+                            <p class="politicas_content_paragrah"><span>1: Incluir y rellenar en el caso de que el responsable sea una sociedad, si es una persona física hay que eliminar este párrafo. En el caso de empresas registradas en el Registro Mercantil o cualquier otro registro público, deberán señalarse el numero y datos de inscripción que le corresponda.</span></p>
+                            <p class="politicas_content_paragrah"><span>2: Si ejerce una profesión regulada deberá indicar los datos del Colegio profesional al que se pertenezca y número de colegiado, el título académico oficial o profesional con el que cuente y las normas profesionales aplicables al ejercicio de su profesión y los medios a través de los cuales se puedan conocer, incluidos los electrónicos. Además, en el caso de que su actividad estuviese sujeta a un régimen de autorización administrativa previa, los datos relativos a dicha autorización y los identificativos del órgano competente encargado de su supervisión.</span></p>
+                        </div>
+                    </section>
+
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>3. ACEPTACIÓN, DISPONIBILIDAD Y MODIFICACIONES DE LAS CONDICIONES DE UTILIZACIÓN DE LA WEB</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">El Usuario se compromete a leer y acepta expresamente las presentes Condiciones de Utilización de la Web, en la versión publicada por MANISUR en el momento en que el Usuario acceda a los contenidos publicitados, teniendo las Condiciones a su disposición, siempre y en todo caso, pudiendo ser almacenadas y/o reproducidas. Así, MANISUR podrá modificar las presentes Condiciones siempre que existan causa o motivo suficiente, sin que ello pueda afectar a los contenidos publicitados.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>4. NORMAS APLICABLES</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">El presente Aviso Legal está sujeto a lo dispuesto en la Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales, de 5 de diciembre de 2018 (LOPDGDD), Reglamento UE 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento general de protección de datos), la Ley 34/2002 de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico.</p>
+                        <p class="politicas_content_paragrah">Tanto el acceso al sitio Web propiedad de MANISUR como el uso que pueda hacerse de la información y contenidos incluidos en el mismo, será de la exclusiva responsabilidad de quien lo realice. Las condiciones de acceso al Sitio Web estarán supeditadas a la legalidad vigente y los principios de la buena fe y uso lícito por parte del Usuario de la  misma, quedando prohibido con carácter general cualquier tipo de actuación en perjuicio del Titular. Se considerará terminantemente prohibido el uso del Sitio Web con fines ilegales o no autorizados.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>5. CONDICIONES DE ACCESO AL SITIO WEB Y USO DE LOS PRODUCTOS Y SERVICIOS</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">El acceso a la Web de MANISUR es gratuito y solo debe realizar compras a través del mismo si usted es mayor de edad. Como Usuario se compromete a:
+                            <li>No falsear su identidad o su fecha de nacimiento para acceder al sitio.</li>
+                            <li>No utilizar ninguno de los contenidos que MANISUR pone a su disposición, con fines ilícitos.</li>
+                            <li>No realizar cualquier actividad que pudiera dañar, sobrecargar, deteriorar o impedir la actividad normal de la Web.</li>
+                            <li>No obtener los contenidos facilitados en la Web por medios ilícitos, fraudulentos, robo o plagio, de conformidad con lo establecido en el Código Penal y en la normativa de aplicación.</li>
+                        </p>
+                        <p class="politicas_content_paragrah">En el supuesto de que el Usuario causara daños a terceros, por hacer uso de cualquier contenido facilitado a través de la Web, exonera expresamente a MANISUR de cualquier responsabilidad que le pudiera ser imputada. A tales efectos, el Usuario asume la responsabilidad exclusiva que pudiera derivarse.</p>
+                        <p class="politicas_content_paragrah">MANISUR al objeto de garantizar los derechos en cumplimiento de las presentes Condiciones y el respeto a la legislación vigente podrá:
+                            <li>Proceder a la supervisión de la Web por medio de sus administradores, con respeto al secreto de las comunicaciones y la intimidad del Usuario y en particular, adoptar todas las medidas necesarias para que en caso de descubrir falseamiento de identidad en un menor de edad sea puesto en conocimiento llegado el caso de sus padres o tutores legales.</li>
+                            <li>Interrumpir temporalmente el servicio sin preaviso por razones tecnológicas o legales que serán convenientemente motivadas.</li>
+                            <li>Modificar las Condiciones de uso de los contenidos, cuando exista causa o motivo suficiente, así lo aconsejen razones tecnológicas o legales.</li>
+                            <li>Modificar los contenidos de la Web sin comunicarlo previamente, cuando por razones de su actividad así lo considere conveniente.</li>
+                            <li>Prohibir acceso a los contenidos, sin previo aviso, a cualquier Usuario que contravenga lo dispuesto en las presentes Condiciones.</li>
+                        </p>
+                        <p class="politicas_content_paragrah">RESPONSABILIDADES DE LAS PARTES</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>6. RESPONSABILIDADES DE LAS PARTES</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">Responsabilidad de MANISUR:
+                        <li>MANISUR, únicamente responderá de los daños que el Usuario pueda sufrir como consecuencia del acceso a la Web cuando dichos daños sean imputables a una actuación dolosa de la empresa.</li>
+                        <li>Asimismo, no será responsable de ningún daño que se genere al Usuario en caso de imposibilidad de prestar el servicio debido a supuestos de caso fortuito, fuerza mayor u otras causas no imputables a MANISUR.</li>
+                        <li>Asimismo, MANISUR tampoco será responsable del inadecuado funcionamiento de la Web si ello obedece a labores de mantenimiento, a incidencias, a un defectuoso funcionamiento del terminal o su insuficiente capacidad para soportar los sistemas indispensables para hacer uso del servicio.</li>
+                        <li>MANISUR  adoptará las medidas oportunas para asegurar una respuesta rápida, sin responsabilizarse por los retrasos que sean debidos a los servicios de telecomunicaciones.</li>
+                        </p>
+                        <p class="politicas_content_subtitle">Responsabilidad del Usuario:
+                            <li>El Usuario será el único responsable de las consecuencias derivadas por la comunicación de datos que no sean verdaderos, (incluida la edad), así como de datos pertenecientes a personas distintas al propio Usuario.</li>
+                            <li>En caso de incumplimiento por parte del Usuario de sus obligaciones, MANISUR se reserva las acciones legales oportunas, así como el derecho a restringir el acceso a los contenidos publicitados.</li>
+                        </p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>7. LIMITACIÓN DE RESPONSABILIDAD</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">MANISUR se esfuerza para que la información que aparece en la Web sea correcta y se encuentre actualizada.</p>
+                        <p class="politicas_content_paragrah">El Usuario exonera a MANISUR de cualquier responsabilidad que pudiera derivarse de las interrupciones de disponibilidad en el acceso a los contenidos, motivados por causas de fuerza mayor o fuera de su control, tales como el módem, el sistema informático del Usuario, el software de navegación, virus, interconexión de redes telefónicas y eléctricas, línea ADSL, fibra óptica, RDSI, y/o cualquier otra infraestructura de transporte o telecomunicaciones utilizadas por el Usuario.</p>
+                        <p class="politicas_content_paragrah">MANISUR no será responsable de los daños o perjuicios que pudiesen causar al Usuario los contenidos propiedad de terceros. Los riesgos derivados del acceso a contenidos propiedad de terceros corresponden exclusivamente al Usuario, que deberá regirse por los términos y Condiciones de los mismos, de los que igualmente MANISUR no se hace responsable.</p>
+                        <p class="politicas_content_paragrah">En el caso de que cualquier usuario o un tercero considere que existen hechos o circunstancias que revelen el carácter ilícito de la utilización de cualquier contenido y/o de la realización de cualquier actividad en las páginas web incluidas o accesibles a través del sitio web, tiene la obligación de enviar enviar una notificación a MANISUR  identificándose debidamente y especificando las supuestas infracciones.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>8. PROPIEDAD INTELECTUAL E INDUSTRIAL</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">Los derechos de propiedad intelectual de este Sitio Web, su código fuente, diseño, estructuras de navegación y los distintos elementos en ella contenidos son titularidad exclusiva de MANISUR a quien corresponde el ejercicio de los derechos de explotación de los mismos en cualquier forma y, en especial, los derechos de reproducción, distribución, comunicación pública y transformación, de acuerdo con la legislación española y de la Unión Europea aplicable.</p>
+                        <p class="politicas_content_paragrah">Queda totalmente prohibida la reproducción total o parcial de los contenidos de este Sitio Web sin consentimiento expreso y por escrito por parte del Titular.</p>
+                        <p class="politicas_content_paragrah">La utilización no autorizada de estos contenidos por cualquier otra persona o empresa dará lugar a las responsabilidades legalmente establecidas.</p>
+                        <p class="politicas_content_paragrah">MANISUR puede mostrar servicios o productos con las Marcas Registradas y con los distintivos comerciales que se indiquen en su Web. MANISUR es la propietaria legítima de sus Marcas Registradas y de su material promocional.</p>
+                        <p class="politicas_content_paragrah">Queda prohibida cualquier modalidad de explotación, incluyendo todo tipo de reproducción, distribución, cesión a terceros, comunicación pública y transformación, mediante cualquier tipo de soporte y medio, de las obras antes referidas, creaciones y signos distintivos sin autorización previa y expresa de sus respectivos titulares.</p>
+                        <p class="politicas_content_paragrah">El incumplimiento de esta prohibición podrá constituir infracción sancionable por la legislación vigente.</p>
+                        <p class="politicas_content_paragrah">Queda prohibido, salvo en los casos que expresamente lo autorice MANISUR, presentar este Sitio Web o la información contenida en ella bajo frames o marcos, signos distintivos, marcas o denominaciones sociales o comerciales de otra persona, empresa o entidad incluyendo de forma expresa el contenido fotográfico que se considera propiedad exclusiva del Titular.</p>
+                        <p class="politicas_content_paragrah">La infracción de cualquiera de los citados derechos puede constituir una vulneración de las presentes Condiciones Generales de Uso, así como un delito castigado de acuerdo con los artículos 270 y siguientes del Código Penal.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>9. LEGISLACIÓN Y JURISDICCIÓN APLICABLE</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">Las presentes condiciones se rigen por la Normativa Española vigente que le es de aplicación. Para la resolución de las controversias que pudieran derivarse como consecuencia de lo dispuesto en las presentes disposiciones, y con renuncia expresa a cualquier otro fuero que pudiera corresponder, el Usuario acuerda someterse a la Jurisdicción de los Juzgados y Tribunales de SAN FERNANDO, excepto en lo vinculado a las cuestiones derivadas del propio contrato de la venta online, que se someterán al fuero del domicilio del comprador.</p>
+                        <p class="politicas_content_paragrah">Conforme al  Reglamento (UE) nº 524/2013 del Parlamento Europeo y del Consejo, de 21 de mayo de 2013, ponemos a disposición del cliente el siguiente enlace que permite el acceso a la plataforma de resolución de litigios en línea de la Unión Europea, plataforma de resolución de litigios en línea de la Unión Europea.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>10. NULIDAD E INEFICACIA DE LAS CLÁUSULAS</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">Si cualquier cláusula incluida en estas Condiciones fuese declarada total o parcialmente nula o ineficaz, tal nulidad afectará tan sólo a dicha disposición o la parte de la misma que resulte nula o ineficaz, subsistiendo en todo lo demás las Condiciones.</p>
                     </section>
                 </div>
             </div>

@@ -186,10 +186,126 @@ require_once "../comons/version_css_js.php";
                         <header class="politicas_title">
                             <h1>LEGAL WARNING</h1>
                         </header>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
+                    </section><br>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>1. PURPOSE AND SCOPE OF APPLICATION OF THE CONDITIONS OF USE OF THE WEBSITE</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">The purpose of these Conditions is to regulate free access to the contents of the website www.manisur.com owned by MANISUR 2005, S.L.U. (hereinafter and throughout the website as MANISUR), by the User through the Website. The website www.manisur.com, hereinafter the Portal or Web page, is governed by the regulations exclusively applicable in Spain, and both nationals and foreigners who use this website are subject to it.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>2. OWNERSHIP OF THE WEBSITE AND MEANS OF CONTACT</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">In compliance with Law 34/2002 on Information Society Services and Electronic Commerce of Spain, we inform you that this website is the property of MANISUR 2005, S.L.U. Your identifying data being:</p>
+                        <p class="politicas_content_paragrah">Company name: MANISUR 2005, S.L.U. , hereinafter MANISUR.</p>
+                        <p class="politicas_content_paragrah">NIF: B11804804 </p>
+                        <p class="politicas_content_paragrah">Registered office: CL. CHOCO, 8 (P.I. TRES CAMINOS) - 11510 PUERTO REAL (CÁDIZ)</p>
+                        <p class="politicas_content_paragrah"><span>Registered in the Commercial Registry of LOCALITY: · Volume VOLUME · Folio FOLIO NUMBER · Sheet No. SHEET NUMBER – Registration REGISTRATION.</span></p>
+                        <p class="politicas_content_paragrah"><span>Official academic title, details of the professional association and membership number (if you practice a regulated profession).</span></p>
+                        <p class="politicas_content_paragrah">To communicate with us, we offer you the following means of contact:</p>
+                        <p class="politicas_content_paragrah"><b>Phone:</b> 956888601</p>
+                        <p class="politicas_content_paragrah"><b>Email:</b> administracion@manisur.com</p>
+                        <p class="politicas_content_paragrah">All notifications and communications between users and MANISUR will be considered effective, for all purposes, when made through any means detailed above.</p>
+
+                        <div class="politicas_content_paragrah_box">
+                            <p class="politicas_content_paragrah"><span>1: Include and fill out if the person responsible is a company, if it is a natural person this paragraph must be deleted. In the case of companies registered in the Commercial Registry or any other public registry, the corresponding registration number and data must be indicated.</span></p>
+                            <p class="politicas_content_paragrah"><span>2: If you practice a regulated profession, you must indicate the details of the professional association to which you belong and membership number, the official or professional academic title you have and the professional standards applicable to the exercise of your profession and the means through which may know, including electronic ones. Furthermore, in the event that your activity is subject to a prior administrative authorization regime, the data related to said authorization and the identification of the competent body in charge of its supervision.</span></p>
+                        </div>
+                    </section>
+
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>3. ACCEPTANCE, AVAILABILITY AND MODIFICATIONS OF THE CONDITIONS OF USE OF THE WEBSITE</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">The User undertakes to read and expressly accepts these Conditions of Use of the Website, in the version published by MANISUR at the time the User accesses the advertised content, having the Conditions at his disposal, always and in any case, and can be stored and/or reproduced. Thus, MANISUR may modify these Conditions whenever there is sufficient cause or reason, without this affecting the advertised content..</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>4. APPLICABLE STANDARDS</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">This Legal Notice is subject to the provisions of Organic Law 3/2018, on the Protection of Personal Data and guarantee of digital rights, of December 5, 2018 (LOPDGDD), Regulation EU 2016/679 of the European Parliament and of the Council of April 27, 2016 regarding the protection of natural persons with regard to the processing of personal data and the free circulation of these data and repealing Directive 95/46/EC (General Data Protection Regulation ), Law 34/2002 of July 11, on Information Society Services and Electronic Commerce.</p>
+                        <p class="politicas_content_paragrah">Both access to the website owned by MANISUR and the use that may be made of the information and content included therein will be the exclusive responsibility of the person who does so. The conditions of access to the Website will be subject to current legislation and the principles of good faith and lawful use by the User, and any type of action to the detriment of the Owner is generally prohibited. Use of the Website for illegal or unauthorized purposes will be considered strictly prohibited.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>5. CONDITIONS OF ACCESS TO THE WEBSITE AND USE OF THE PRODUCTS AND SERVICES</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">Access to the MANISUR website is free and you should only make purchases through it if you are of legal age. As a User you agree to:
+                            <li>Do not falsify your identity or your date of birth to access the site.</li>
+                            <li>Do not use any of the content that MANISUR makes available to you for illegal purposes..</li>
+                            <li>Do not carry out any activity that could damage, overload, deteriorate or impede the normal activity of the Website.</li>
+                            <li>Not obtain the content provided on the Web by illicit, fraudulent, theft or plagiarism, in accordance with the provisions of the Penal Code and the applicable regulations.</li>
+                        </p>
+                        <p class="politicas_content_paragrah">In the event that the User causes damage to third parties by using any content provided through the Website, the User expressly exonerates MANISUR from any liability that may be attributed to it. For these purposes, the User assumes the exclusive responsibility that may arise.</p>
+                        <p class="politicas_content_paragrah">MANISUR in order to guarantee the rights in compliance with these Conditions and respect for current legislation may:
+                            <li>Proceed to supervise the Website through its administrators, with respect to the secrecy of communications and the privacy of the User and in particular, adopt all necessary measures so that in the event of discovering false identity in a minor, it is placed inform their parents or legal guardians if necessary.</li>
+                            <li>Temporarily interrupt the service without prior notice for technological or legal reasons that will be suitably motivated.</li>
+                            <li>Modify the Conditions of use of the contents, when there is sufficient cause or reason, whether technological or legal reasons advise it.</li>
+                            <li>Modify the contents of the Website without prior communication, when for reasons of its activity it deems appropriate.</li>
+                            <li>Prohibit access to the contents, without prior notice, to any User who contravenes the provisions of these Conditions.</li>
+                        </p>
+                        <p class="politicas_content_paragrah">RESPONSIBILITIES OF THE PARTIES</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>6. RESPONSIBILITIES OF THE PARTIES</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">MANISUR responsibility:
+                            <li>MANISUR will only be liable for any damages that the User may suffer as a result of accessing the Website when said damages are attributable to malicious actions by the company.</li>
+                            <li>Likewise, it will not be responsible for any damage caused to the User in the event of impossibility of providing the service due to cases of fortuitous event, force majeure or other causes not attributable to MANISUR.</li>
+                            <li>Likewise, MANISUR will not be responsible for the inadequate functioning of the Website if this is due to maintenance work, incidents, a defective operation of the terminal or its insufficient capacity to support the systems essential to use the service.</li>
+                            <li>MANISUR will adopt the appropriate measures to ensure a rapid response, without being responsible for delays due to telecommunications services.</li>
+                        </p>
+                        <p class="politicas_content_subtitle">User Responsibility:
+                            <li>The User will be solely responsible for the consequences derived from the communication of data that is not true, (including age), as well as data belonging to people other than the User himself.</li>
+                            <li>In the event of non-compliance by the User with their obligations, MANISUR reserves the appropriate legal actions, as well as the right to restrict access to the advertised content.</li>
+                        </p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>7. LIMITATION OF LIABILITY</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">MANISUR strives to ensure that the information that appears on the Website is correct and up-to-date.</p>
+                        <p class="politicas_content_paragrah">The User exonerates MANISUR from any responsibility that may arise from interruptions in availability of access to the content, caused by force majeure or beyond its control, such as the modem, the User's computer system, the navigation software. , viruses, interconnection of telephone and electrical networks, ADSL line, fiber optics, ISDN, and/or any other transport or telecommunications infrastructure used by the User.</p>
+                        <p class="politicas_content_paragrah">MANISUR will not be responsible for any damages or losses that content owned by third parties may cause to the User. The risks derived from accessing content owned by third parties correspond exclusively to the User, who must be governed by their terms and conditions, for which MANISUR is not responsible.</p>
+                        <p class="politicas_content_paragrah">In the event that any user or third party considers that there are facts or circumstances that reveal the illicit nature of the use of any content and/or the performance of any activity on the web pages included or accessible through the website, they have the obligation to send a notification to MANISUR duly identifying itself and specifying the alleged infractions.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>8. INTELLECTUAL AND INDUSTRIAL PROPERTY</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">The intellectual property rights of this Website, its source code, design, navigation structures and the different elements contained therein are the exclusive property of MANISUR, who is responsible for the exercise of the rights to exploit them in any form and, in especially, the rights of reproduction, distribution, public communication and transformation, in accordance with the applicable Spanish and European Union legislation.</p>
+                        <p class="politicas_content_paragrah">Total or partial reproduction of the contents of this Website is totally prohibited without express written consent from the Owner.</p>
+                        <p class="politicas_content_paragrah">The unauthorized use of these contents by any other person or company will give rise to legally established responsibilities.</p>
+                        <p class="politicas_content_paragrah">MANISUR may display services or products with the Registered Trademarks and with the commercial distinctives indicated on its Website. MANISUR is the legitimate owner of its Registered Trademarks and its promotional material.</p>
+                        <p class="politicas_content_paragrah">Any form of exploitation is prohibited, including all types of reproduction, distribution, transfer to third parties, public communication and transformation, by any type of support and medium, of the aforementioned works, creations and distinctive signs without prior and express authorization from their respective owners. Headlines.</p>
+                        <p class="politicas_content_paragrah">Failure to comply with this prohibition may constitute an offense punishable by current legislation.</p>
+                        <p class="politicas_content_paragrah">It is prohibited, except in cases expressly authorized by MANISUR, to present this Website or the information contained therein under frames, distinctive signs, brands or social or commercial names of another person, company or entity, expressly including the content. photographic that is considered the exclusive property of the Owner.</p>
+                        <p class="politicas_content_paragrah">The infringement of any of the aforementioned rights may constitute a violation of these General Conditions of Use, as well as a crime punishable in accordance with articles 270 and following of the Penal Code.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>9. APPLICABLE LEGISLATION AND JURISDICTION</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">These conditions are governed by the current Spanish Regulations that apply to them. For the resolution of disputes that may arise as a consequence of the provisions of these provisions, and expressly waiving any other jurisdiction that may apply, the User agrees to submit to the Jurisdiction of the Courts and Tribunals of SAN FERNANDO, except as linked to the issues arising from the online sales contract itself, which will be subject to the jurisdiction of the buyer's domicile.</p>
+                        <p class="politicas_content_paragrah">In accordance with Regulation (EU) No. 524/2013 of the European Parliament and of the Council, of May 21, 2013, we make available to the client the following link that allows access to the online dispute resolution platform of the European Union, European Union online dispute resolution platform.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>10. NULLITY AND INEFFECTIVENESS OF THE CLAUSES</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">If any clause included in these Conditions is declared totally or partially null or ineffective, such nullity will affect only said provision or the part thereof that is null or ineffective, with everything else subsisting in the Conditions.</p>
                     </section>
                 </div>
             </div>
