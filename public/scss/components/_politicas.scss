@@ -47,3 +47,16 @@
 .td {
     color: red;
 }
+
+.btn-custom-cookie {
+    background: $color_principal;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    cursor: pointer;
+    margin: auto;
+}

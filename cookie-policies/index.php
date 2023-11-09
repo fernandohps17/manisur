@@ -204,13 +204,13 @@ require_once "../comons/version_css_js.php";
                         <p class="politicas_content_paragrah">These cookies may occasionally allow us to estimate usage numbers and patterns, store information about your preferences and personalize our website according to your individual interests, speed up your searches, recognize you when you return to our site or send you advertising.</p>
                         <p class="politicas_content_paragrah">We inform you that, if consent is given on your part, you will have accepted its use, so that we can carry out the processing of personal data, either through the use of the appropriate parameters of the browser or other applications, for which which can proceed with its configuration during its installation or update.</p>
                         <p class="politicas_content_paragrah">
-                        You can refuse to accept our cookies by activating the rejection of cookies in your browser settings. We expressly warn you that if you select this setting, you may not be able to access certain areas of our website, or you may not be able to benefit from some of our products and/or services.
+                            You can refuse to accept our cookies by activating the rejection of cookies in your browser settings. We expressly warn you that if you select this setting, you may not be able to access certain areas of our website, or you may not be able to benefit from some of our products and/or services.
                         </p>
                         <p class="politicas_content_paragrah">
-                        This will not prevent the possible storage or access of a technical nature through specific cookies for the sole purpose of carrying out the transmission of a communication over an electronic communications network or, to the extent strictly necessary, for the provision of the service expressly requested and which are essential to guarantee navigation on our site and the use of the services offered therein.
+                            This will not prevent the possible storage or access of a technical nature through specific cookies for the sole purpose of carrying out the transmission of a communication over an electronic communications network or, to the extent strictly necessary, for the provision of the service expressly requested and which are essential to guarantee navigation on our site and the use of the services offered therein.
                         </p>
                         <p class="politicas_content_paragrah">
-                        We inform you that if your browser settings do not reject cookies, our system will produce cookies when you connect to our site.
+                            We inform you that if your browser settings do not reject cookies, our system will produce cookies when you connect to our site.
                         </p>
                     </section>
 
@@ -229,7 +229,7 @@ require_once "../comons/version_css_js.php";
                         </p>
 
                         <p class="politicas_content_paragrah">In summary, for your information, know that we use the following:</p>
-                        
+
                         <table border="1">
                             <tr>
                                 <th>Cookies</th>
@@ -294,6 +294,9 @@ require_once "../comons/version_css_js.php";
                             <a href="Chrome para Android">Chrome for Android</a>
                         </p>
                     </section>
+
+                    <div id="btn-custom-cookie" class="btn-custom-cookie">CONFIGURE YOUR COOKIES</div>
+
                 </div>
             </div>
         </div>
@@ -327,11 +330,29 @@ require_once "../comons/version_css_js.php";
 
         <?php
         require_once '../comons/btn_top.php';
+        require_once '../comons/cookies_en.php';
         ?>
     </main>
 
     <script src="/public/js/carga_diferida.js"></script>
     <script src="/public/js/menu.js"></script>
+    <script src="/public/js/cookies.js"></script>
+
+    <script>
+        const cus_custom_cookie = () => {
+            let btn_cus = document.getElementById('btn-custom-cookie');
+
+            btn_cus.addEventListener('click', () => {
+                let modal = document.getElementById('custom-cookie-modal');
+                modal.style.display = 'grid';
+                custom_cookie();
+            });
+        }
+
+        (() => {
+            cus_custom_cookie();
+        })();
+    </script>
 </body>
 
 </html>

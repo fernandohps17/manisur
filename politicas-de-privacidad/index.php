@@ -133,21 +133,123 @@ require_once "../comons/version_css_js.php";
                         <header class="politicas_title">
                             <h1>POLÍTICAS DE PRIVACIDAD</h1>
                         </header>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
+                    </section><br>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>AVISO DE PRIVACIDAD</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">De conformidad con la Ley 34/2002 de 11 de julio y demás legislación concordante, MANISUR 2005, S.L.U., manifiesta que su NIF es B11804804, que cuenta con Domicilio Social  en CL. CHOCO, 8 (P.I. TRES CAMINOS) - 11510 PUERTO REAL (CÁDIZ) y email de contacto: administracion@manisur.com</p>
+                        <p class="politicas_content_paragrah">Las presentes condiciones legales regulan el uso y las condiciones de acceso del sitio Web www.manisur.com. El uso o el acceso a este sitio implica que usted (en adelante "usuario") reconoce haber leído y comprendido las presentes informaciones en su totalidad. Si usted como usuario no está de acuerdo con alguna de las presentes condiciones deberá dejar de acceder a este sitio. </p>
                     </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>POLÍTICA DE PROTECCIÓN DE DATOS</h2>
+                        </header>
+                        <p class="politicas_content_paragrah"><b>INFORMACIÓN CONFIDENCIAL:</b> Se entiende por "información confidencial" toda aquella información o dato provisto por usted en nuestra web. </p>
+                        <p class="politicas_content_paragrah">Así, a título enunciativo, que no limitativo, se entiende como información confidencial toda información personal de forma no restrictiva: Números de teléfono, números de faxes, direcciones de correo electrónico, direcciones de residencia, firmas, copias de pasaportes o documentos nacionales de identidad, detalles de tarjetas de crédito/débito, preferencias personales, particularidades o cualquier otra información que le pertenezca y sea relevante para la contratación o pago de la reserva de usted o del grupo en nombre del cual contrata.</p>
+                        <p class="politicas_content_paragrah">En ningún caso tendrá carácter de confidencial la información referente a:  
+                            <li>Cualquier tema que aparezca de forma pública o que pase a ser de dominio público a no ser que haya llegado a ser de dominio público a causa del incumplimiento de una de las partes.</li>
+                            <li>Cualquier información o conocimiento (Know-How) adquirido de terceros.</li>
+                            <li>Divulgación requerida por Ley.</li>
+                            <li>Divulgación de cualquier información a petición de Jueces o Tribunales.</li>
+                            <li>Información referente a datos económicos o de otra índole que deban ser aportados ante la Administración estatal, local o autonómica, por requerimientos fiscales, laborales o de contratación administrativa.</li>
+                        </p>
+                        
+                    </section>
+
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>ACCESO A DATOS PERSONALES</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">INFORMACIÓN
+                            <li>Responsable del Tratamiento: MANISUR 2005, S.L.U. </li>
+                            <li>Correo electrónico: administracion@manisur.com</li>
+                        </p>
+
+                        <p class="politicas_content_paragrah">FINALIDAD</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>ACTIVIDAD PRINCIPAL: FRÍO INDUSTRIAL</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">La información aportada al formulario de contacto, o en su caso al registro como usuario, se entiende comunicada de modo veraz por parte del usuario de la web y solo será recabada la adecuada, pertinente y no excesiva para atenderle como cliente y prestarle de forma correcta los servicios contratados, pero también en caso de contar con su consentimiento expreso, para gestionar lista de suscripciones, seguimientos, enviar boletines, promociones y ofertas especiales. Igualmente, para moderar y responder a comentarios de los usuarios de la web.</p>
+                        <p class="politicas_content_paragrah">No será utilizada la información para cumplir finalidades incompatibles con aquellas para las que nos la ha proporcionado. Si fuese a ser utilizada para una finalidad incompatible, se le proporcionará información, además de solicitarle su consentimiento para ello.</p>
+                        <p class="politicas_content_paragah">No utilizaremos sus datos personales con la finalidad de tomar decisiones, basadas exclusivamente en el tratamiento automatizado sus datos, que puedan producir algún efecto jurídico, salvo que sea necesaria para celebrar un contrato, lo consienta explícitamente o lo autorice la Ley. Le garantizamos que respetamos las condiciones de uso establecidas legalmente y podremos desarrollar herramientas y algoritmos que ayuden a la web a garantizar confidencialidad de los datos que recoge.</p>
+                        <p class="politicas_content_paragrah">Los datos personales son recabados habitualmente por diversas vías diversas en formato papel o electrónico. Para el caso de que contáramos con información que pudiera provenir de terceras personas, le informaremos en la primera comunicación o en un mes de plazo máximo. Con el fin de poder ofrecerle productos y servicios de acuerdo con sus intereses podremos elaborar un perfil comercial, con base en dicha información. Toda su información será archivada en nuestros servidores y formarán parte de nuestros Registros de Actividad de Tratamiento.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>LEGITIMACIÓN</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">
+                            <li>Consentimiento del Interesado</li>
+                            <li>Ejecución de un Contrato </li>
+                            <li>Cumplimiento de una Obligación legal </li>
+                            <li>Interés Público o ejercicio de Poderes Públicos</li>
+                            <li>Interés legítimo del responsable, o de un tercero</li>
+                            <li>Protección de intereses vitales del interesado o de otra persona. </li>
+                        </p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>CONSERVACIÓN </h2>
+                        </header>
+                        <p class="politicas_content_paragrah">Sus datos serán conservados durante el tiempo necesario para cumplir con el servicio solicitado. Una vez cumplida dicha finalidad sus datos serán conservados debidamente bloqueados para poder cumplir con las obligaciones que legalmente vengan impuestas al responsable por la legislación vigente. Transcurridos dichos plazos, sus datos serán borrados definitivamente salvo que nos solicite expresamente la portabilidad a tercero.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>DESTINATARIOS/COMUNICACIONES</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">
+                            <li>Hacienda Pública, Tesorería General de la Seguridad Social o entidades Colaboradoras, u otras, por tratarse de un requisito legal. </li>
+                            <li>Tribunales de Justicia, Ministerio Fiscal o Fuerzas y Cuerpos de Seguridad del Estado, u otras, por tratarse de un requisito legal. </li>
+                            <li>Servicios fiscales y laborales</li>
+                            <li>Servicios de consultoría </li>
+                            <li>Servicios informáticos </li>
+                            <li>Transferencias Internacionales</li>
+                        </p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>DERECHOS</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">Puede ejercer sus derechos de acceso, rectificación, supresión y portabilidad de sus datos, y la limitación u oposición al tratamiento en: CL. CHOCO, 8 (P.I. TRES CAMINOS) - 11510 PUERTO REAL (CÁDIZ). Igualmente si se encuentra en desacuerdo respecto a la gestión de la información tiene derecho a reclamar ante la Autoridad de Control en: www.aepd.es </p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>PROCEDENCIA</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">Los datos objeto de tratamiento proceden del interesado</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>NORMATIVA</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">
+                            <li>Reglamento General de Protección de Datos 2016/679</li>
+                            <li>Ley Orgánica 3/2018 de Protección de Datos</li>
+                        </p>
+                    </section>
+
                 </div>
             </div>
         </div>
-
-
 
         <?php
         require_once '../comons/footer.php';
         require_once '../comons/btn_top.php';
         ?>
+        
     </main>
 
     <script src="/public/js/carga_diferida.js"></script>

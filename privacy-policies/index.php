@@ -186,10 +186,112 @@ require_once "../comons/version_css_js.php";
                         <header class="politicas_title">
                             <h1>PRIVACY POLICIES</h1>
                         </header>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
-                        <p class="politicas_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deleniti illum tenetur eum libero corrupti error debitis veniam! Expedita enim laboriosam quo rerum dolor est commodi excepturi omnis placeat assumenda, officia eius maiores nulla recusandae a voluptate libero, earum doloremque! Nam ratione quis doloribus qui quae! Repellendus, corporis. Eveniet perferendis ipsa rerum commodi! Eaque molestias animi beatae ab repellendus cupiditate dolores quas deserunt reprehenderit, temporibus vitae nisi. Id qui quaerat repudiandae, corrupti provident consequatur? Excepturi unde in, nostrum error et iusto reprehenderit voluptas autem ad animi aut consequuntur reiciendis voluptatem atque deleniti, velit perspiciatis hic qui expedita! Officiis, ullam rem!</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>NOTICE OF PRIVACY</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">In accordance with Law 34/2002 of July 11 and other corresponding legislation, MANISUR 2005, S.L.U., states that its NIF is B11804804, which has its registered office in CL. CHOCO, 8 (P.I. TRES CAMINOS) - 11510 PUERTO REAL (CÁDIZ) and contact email: administracion@manisur.com</p>
+                        <p class="politicas_content_paragrah">These legal conditions regulate the use and access conditions of the website www.manisur.com. Use or access to this site implies that you (hereinafter "user") acknowledge that you have read and understood this information in its entirety. If you as a user do not agree with any of these conditions, you must stop accessing this site.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>DATA PROTECTION POLICY</h2>
+                        </header>
+                        <p class="politicas_content_paragrah"><b>CONFIDENTIAL INFORMATION:</b> "Confidential information" is understood as all information or data provided by you on our website.</p>
+                        <p class="politicas_content_paragrah">Thus, by way of example, but not limitation, confidential information is understood to be all personal information in a non-restrictive manner: Telephone numbers, fax numbers, email addresses, residence addresses, signatures, copies of passports or national identity documents. , credit/debit card details, personal preferences, particularities or any other information that belongs to you and is relevant to the contracting or payment of the reservation of you or the group on behalf of which you contract.</p>
+                        <p class="politicas_content_paragrah">Under no circumstances will the information regarding:
+                            <li>Any matter that appears publicly or becomes public domain unless it has become public domain due to the breach of a party.</li>
+                            <li>Any information or knowledge (Know-How) acquired from third parties.</li>
+                            <li>Disclosure Required by Law.</li>
+                            <li>Disclosure of any information at the request of Judges or Courts.</li>
+                            <li>Information regarding economic or other data that must be provided to the state, local or regional Administration, for tax, labor or administrative contracting requirements.</li>
+                        </p>
+
+                    </section>
+
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>ACCESS TO PERSONAL DATA</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">INFORMATION
+                            <li>Responsible for the Treatment: MANISUR 2005, S.L.U.</li>
+                            <li>Email: administracion@manisur.com</li>
+                        </p>
+
+                        <p class="politicas_content_paragrah">PURPOSE</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>MAIN ACTIVITY: INDUSTRIAL COLD</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">The information provided to the contact form, or, where appropriate, to the registration as a user, is understood to have been communicated truthfully by the user of the website and only adequate, relevant and not excessive information will be collected to serve you as a client and provide you correctly. the contracted services, but also if you have your express consent, to manage subscription lists, follow-ups, send newsletters, promotions and special offers. Likewise, to moderate and respond to comments from web users.</p>
+                        <p class="politicas_content_paragrah">The information will not be used to fulfill purposes incompatible with those for which you have provided it to us. If it were to be used for an incompatible purpose, you will be provided with information, in addition to requesting your consent to do so.</p>
+                        <p class="politicas_content_paragah">We will not use your personal data for the purpose of making decisions, based exclusively on the automated processing of your data, that may produce any legal effect, unless it is necessary to enter into a contract, you explicitly consent to it or it is authorized by Law. We guarantee that we respect the legally established conditions of use and we can develop tools and algorithms that help the website guarantee the confidentiality of the data it collects.</p>
+                        <p class="politicas_content_paragrah">Personal data is usually collected by various means in paper or electronic format. In the event that we have information that could come from third parties, we will inform you in the first communication or within a maximum of one month. In order to be able to offer you products and services in accordance with your interests, we may develop a commercial profile based on said information. All your information will be archived on our servers and will form part of our Processing Activity Records.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>LEGITIMATION</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">
+                            <li>Consentimiento del Interesado</li>
+                            <li>Consent of the Interested Party</li>
+                            <li>Compliance with a legal obligation</li>
+                            <li>Public Interest or exercise of Public Powers</li>
+                            <li>Legitimate interest of the person responsible, or of a third party</li>
+                            <li>Protection of vital interests of the interested party or another person.</li>
+                        </p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>CONSERVATION</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">Your data will be kept for the time necessary to fulfill the requested service. Once this purpose has been fulfilled, your data will be kept duly blocked in order to comply with the obligations that are legally imposed on the person responsible by current legislation. After these periods, your data will be permanently deleted unless you expressly request portability to a third party.</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>RECIPIENTS/COMMUNICATIONS</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">
+                            <li>Public Treasury, General Treasury of Social Security or Collaborating entities, or others, as it is a legal requirement.</li>
+                            <li>Courts of Justice, Public Prosecutor's Office or State Security Forces and Corps, or others, as it is a legal requirement.</li>
+                            <li>Tax and labor services</li>
+                            <li>Consulting services</li>
+                            <li>Computer Services</li>
+                            <li>International transfers</li>
+                        </p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>RIGHTS</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">You can exercise your rights of access, rectification, deletion and portability of your data, and limitation or opposition to processing at: CL. CHOCO, 8 (P.I. TRES CAMINOS) - 11510 PUERTO REAL (CÁDIZ). Likewise, if you find yourself in disagreement regarding the management of the information, you have the right to complain to the Control Authority at: www.aepd.es</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>ORIGIN</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">The data subject to processing come from the interested party</p>
+                    </section>
+
+                    <section class="politicas_content">
+                        <header class="politicas_content_subtitle">
+                            <h2>NORMATIVE</h2>
+                        </header>
+                        <p class="politicas_content_paragrah">
+                            <li>General Data Protection Regulation 2016/679</li>
+                            <li>Organic Law 3/2018 on Data Protection</li>
+                        </p>
                     </section>
                 </div>
             </div>

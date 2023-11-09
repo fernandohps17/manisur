@@ -241,6 +241,9 @@ require_once "../comons/version_css_js.php";
                         </p>
                     </section>
 
+                    <div id="btn-custom-cookie" class="btn-custom-cookie">CONFIGURAR TUS COOKIES</div>
+
+
                 </div>
             </div>
         </div>
@@ -250,11 +253,29 @@ require_once "../comons/version_css_js.php";
         <?php
         require_once '../comons/footer.php';
         require_once '../comons/btn_top.php';
+        require_once '../comons/cookies.php';
         ?>
     </main>
 
     <script src="/public/js/carga_diferida.js"></script>
     <script src="/public/js/menu.js"></script>
+    <script src="/public/js/cookies.js"></script>
+
+    <script>
+        const cus_custom_cookie = () => {
+            let btn_cus = document.getElementById('btn-custom-cookie');
+
+            btn_cus.addEventListener('click', () => {
+                let modal = document.getElementById('custom-cookie-modal');
+                modal.style.display = 'grid';
+                custom_cookie();
+            });
+        }
+
+        (() => {
+            cus_custom_cookie();
+        })();
+    </script>
 </body>
 
 </html>
