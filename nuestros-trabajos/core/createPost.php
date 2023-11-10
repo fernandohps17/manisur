@@ -63,7 +63,7 @@ if (isset($_FILES['image'])) {
 
   insert_post($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $imgPortada, $imgPortadaWebp, $imgMobile, $imgMobileWebp, $fecha, $published, $url_raiz, $sitemap);
 
-  // Obtenemos los posts para verificar si hay que crear  una nueva pagina
+  // Obtenemos los posts para verificar si hay que crear una nueva pagina
   $posts = get_count_posts();
   create_folder($posts);
 

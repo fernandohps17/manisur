@@ -26,19 +26,44 @@ $post_url = (isset($_POST['post-url']) ? 'true' : 'false');
 $oldSeo = htmlentities(addslashes($_POST['oldSeo']));
 $sitemap = ($_POST['sitemap']) ? 'false' : 'true';
 
-if ($published != $oldStatus) {
-  setlocale(LC_TIME, 'es_ES.UTF-8');
-  $cadena_fecha_mysql = strftime("%Y-%m-%d");
-  $objeto_DateTime = date_create_from_format('Y-m-d', $cadena_fecha_mysql);
-  $cadena_nuevo_formato = date_format($objeto_DateTime, "d-F-Y");
+// if ($published != $oldStatus) {
+//   setlocale(LC_TIME, 'es_ES.UTF-8');
+//   $cadena_fecha_mysql = strftime("%Y-%m-%d");
+//   $objeto_DateTime = date_create_from_format('Y-m-d', $cadena_fecha_mysql);
+//   $cadena_nuevo_formato = date_format($objeto_DateTime, "d-F-Y");
 
-  $meses_ES = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", " - ");
-  $meses_EN = array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "-");
+//   $meses_ES = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", " - ");
+//   $meses_EN = array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "-");
 
-  $fecha = str_replace($meses_EN, $meses_ES, $cadena_nuevo_formato);
-} else {
-  $fecha = htmlentities(addslashes($_POST['fecha']));
-}
+//   $fecha = str_replace($meses_EN, $meses_ES, $cadena_nuevo_formato);
+// } else {
+//   $fecha = htmlentities(addslashes($_POST['fecha']));
+// }
+
+
+ // Variables to check the status
+ $published = isset($_POST['published']) ? $_POST['published'] : '';
+ $oldStatus = isset($_POST['oldStatus']) ? $_POST['oldStatus'] : '';
+
+ // If the published status has changed
+ if ($published != $oldStatus) {
+    // Get the current date and time
+    setlocale(LC_TIME, 'es_ES.UTF-8');
+    $currentDateTime = new DateTime();
+    $currentDate = $currentDateTime->format('d-F-Y');
+
+    // Define the Spanish month names
+    $meses_ES = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", " - ");
+    $meses_EN = array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "-");
+
+    // Replace the English month names with the Spanish ones
+    $fecha = str_replace($meses_EN, $meses_ES, $currentDate);
+    $published = 'true';
+ } else {
+    // If the published status has not changed, get the submitted date from the POST data
+    $fecha = htmlentities(addslashes($_POST['fecha']));
+ }
+
 
 // HAY IMAGEN
 if ($_FILES['image']['name'] != "") {
