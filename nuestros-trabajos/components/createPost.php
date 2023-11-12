@@ -24,12 +24,9 @@
         </div>
 
 
-
-
         <div class="gruop">
           <p class="label-file" id="btn-generate-uri">GENERAR URL</p>
         </div>
-
 
 
         <div class="gruop">
@@ -38,21 +35,16 @@
         </div>
 
 
-
         <div class="gruop">
           <p id="response-input"></p>
           <p class="label-file" id="btn-verify-uri">VERIFICAR URL</p>
         </div>
 
 
-
-
         <div class="gruop">
           <label class="text" for=""><strong>Agregar una descripción que atraiga al usuario</strong></label>
           <textarea class='text-description' name="description"></textarea>
         </div>
-
-
 
 
 
@@ -71,33 +63,6 @@
         </div><br><br><br>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <!-- Publicacion del post en ingles -->
 
         <div class="title">
@@ -113,10 +78,6 @@
           <label class="text" for=""><strong>Meta Post Title</strong></label>
           <input type="text" name="meta_title_en" required>
         </div>
-
-
-
-
 
 
         <!-- <div class="gruop">
@@ -154,38 +115,6 @@
           <label class="text" for=""><strong>Post Content</strong></label>
           <textarea id="txtEditor_en" name="content_en" value=""></textarea>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
