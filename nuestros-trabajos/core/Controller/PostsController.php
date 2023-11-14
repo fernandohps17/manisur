@@ -634,7 +634,7 @@ function update_sitemap_posts()
     foreach ($posts as $value) {
       // validamos si queremos indexar la url
       if ($value['sitemap'] === 'true') {
-        $fechas = str_replace($meses_ES, $meses_NUM, $value['update_fecha']);
+        $fechas = str_replace($meses_ES, $meses_NUM, $value['fecha']);
         $fecha_separada = explode('-', $fechas);
 
         $new_date = $fecha_separada[2] . "-" . $fecha_separada[1] . "-" . $fecha_separada[0];
