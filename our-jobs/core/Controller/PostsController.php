@@ -106,7 +106,7 @@ function get_post_last_ten($id_post_actual)
   try {
     $conn = open_db();
     $data = [];
-    $get_posts = $conn->query("SELECT title_en, uri, fecha, seo FROM posts WHERE id != $id_post_actual AND published='true' ORDER BY id DESC LIMIT 10");
+    $get_posts = $conn->query("SELECT title, uri, fecha, seo FROM posts WHERE id != $id_post_actual AND published='true' ORDER BY id DESC LIMIT 10");
 
     foreach ($get_posts as $key => $value) {
       array_push($data, $value);
@@ -203,14 +203,14 @@ function get_uri_prev_for_id($id)
 }
 
 // Funcion encargada de agregar un nuevo post
-function insert_post($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $imgPortada, $imgPortadaWebp, $imgMobile, $imgMobileWebp, $fecha, $published, $url_raiz, $sitemap)
+function insert_post($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $imgPortada, $imgPortadaWebp, $imgMobile, $imgMobileWebp, $fecha, $update_fecha, $published, $url_raiz, $sitemap)
 {
   try {
     $conn = open_db();
 
     $insert = $conn->prepare("INSERT INTO posts
-                                  (title, title_en, meta_title, meta_title_en, description, description_en, content, content_en, fecha, img_portada, img_portada_web, img_mobile, img_mobile_web, uri, published, seo, sitemap) VALUES 
-                                  (:title, :title_en, :meta_title, :meta_title_en, :description, :description_en, :content, :content_en, :fecha, :img_portada, :img_portada_web, :img_mobile, :img_mobile_web, :uri, :published, :seo, :sitemap)");
+                                  (title, title_en, meta_title, meta_title_en, description, description_en, content, content_en, fecha, update_fecha, img_portada, img_portada_web, img_mobile, img_mobile_web, uri, published, seo, sitemap) VALUES 
+                                  (:title, :title_en, :meta_title, :meta_title_en, :description, :description_en, :content, :content_en, :fecha, :update_fecha, :img_portada, :img_portada_web, :img_mobile, :img_mobile_web, :uri, :published, :seo, :sitemap)");
 
     // $traduccion = file_get_contents("https://www.googleapis.com/language/translate/v2?key=YOUR_API_KEY&q=" . urlencode($insert) . "&source=es&target=en");
     // $traduccion_json = json_decode($traduccion, true);
@@ -226,6 +226,7 @@ function insert_post($title, $title_en, $meta_title, $meta_title_en, $descriptio
       ":content" => $content,
       ":content_en" => $content_en,
       ":fecha" => $fecha,
+      ":update_fecha" => $update_fecha,
       ":img_portada" => $imgPortada,
       ":img_portada_web" => $imgPortadaWebp,
       ":img_mobile" => $imgMobile,
@@ -507,17 +508,17 @@ function redimensionImg($max_ancho, $imagen, $mobile, $folder)
       throw new Exception();
     }
   } catch (Exception $e) {
-    $_SESSION['error'] = "Only jpeg, jpg and png images are allowed";
+    $_SESSION['error'] = "Solo se permiten imagenes jpeg, jpg y png";
   }
 }
 
 // Funcion encargada de editar el post si hay nueva imagen
-function edit_post_with_img($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $id, $imgPortada, $imgPortadaWebp, $imgMobile, $imgMobileWebp, $published, $fecha, $seo, $sitemap)
+function edit_post_with_img($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $id, $imgPortada, $imgPortadaWebp, $imgMobile, $imgMobileWebp, $published, $fecha, $seo, $sitemap, $update_fecha)
 {
   try {
     $conn = open_db();
 
-    $update_post = $conn->prepare("UPDATE posts SET title=:title, title_en=:title_en, meta_title=:meta_title, meta_title_en=:meta_title_en, description=:description, description_en=:description_en, content=:content, content_en=:content_en, uri=:uri, img_portada=:img_portada, img_portada_web=:img_portada_web, img_mobile=:img_mobile, img_mobile_web=:img_mobile_web, published=:published, fecha=:fecha, seo=:seo, sitemap=:sitemap WHERE id=:id");
+    $update_post = $conn->prepare("UPDATE posts SET title=:title, title_en=:title_en, meta_title=:meta_title, meta_title_en=:meta_title_en, description=:description, description_en=:description_en, content=:content, content_en=:content_en, uri=:uri, img_portada=:img_portada, img_portada_web=:img_portada_web, img_mobile=:img_mobile, img_mobile_web=:img_mobile_web, published=:published, fecha=:fecha, update_fecha=:update_fecha, seo=:seo, sitemap=:sitemap WHERE id=:id");
 
     $update_post->execute(array(
       ":title" => $title,
@@ -536,6 +537,7 @@ function edit_post_with_img($title, $title_en, $meta_title, $meta_title_en, $des
       ":id" => $id,
       ":published" => $published,
       ":fecha" => $fecha,
+      ":update_fecha" => $update_fecha,
       ":seo" => $seo,
       ":sitemap" => $sitemap,
     ));
@@ -551,12 +553,12 @@ function edit_post_with_img($title, $title_en, $meta_title, $meta_title_en, $des
 }
 
 // Funcion encargada de editar los post sin no hay imagen nueva
-function edit_post_without_img($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $id, $published, $fecha, $seo, $sitemap)
+function edit_post_without_img($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $id, $published, $fecha, $seo, $sitemap, $update_fecha)
 {
   try {
     $conn = open_db();
 
-    $update_post = $conn->prepare("UPDATE posts SET title=:title, title_en=:title_en, meta_title=:meta_title, meta_title_en=:meta_title_en, description=:description, description_en=:description_en, content=:content, content_en=:content_en, uri=:uri, published=:published, fecha=:fecha, seo=:seo, sitemap=:sitemap WHERE id=:id");
+    $update_post = $conn->prepare("UPDATE posts SET title=:title, title_en=:title_en, meta_title=:meta_title, meta_title_en=:meta_title_en, description=:description, description_en=:description_en, content=:content, content_en=:content_en, uri=:uri, published=:published, fecha=:fecha, update_fecha=:update_fecha, seo=:seo, sitemap=:sitemap WHERE id=:id");
 
     $update_post->execute(array(
       ":title" => $title,
@@ -571,6 +573,7 @@ function edit_post_without_img($title, $title_en, $meta_title, $meta_title_en, $
       ":id" => $id,
       ":published" => $published,
       ":fecha" => $fecha,
+      ":update_fecha" => $update_fecha,
       ":seo" => $seo,
       ":sitemap" => $sitemap,
     ));
@@ -628,16 +631,22 @@ function update_sitemap_posts()
     $meses_ES = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", " de ");
     $meses_NUM = array("01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "-");
 
+    
     foreach ($posts as $value) {
+      if (isset($value['update_fecha']) ) {
+        $fecha_sitemap = $value['update_fecha'];
+      } else {
+        $fecha_sitemap = $value['fecha'];
+      }
       // validamos si queremos indexar la url
       if ($value['sitemap'] === 'true') {
-        $fechas = str_replace($meses_NUM, $meses_ES, $value['fecha']);
+        $fechas = str_replace($meses_ES, $meses_NUM, $fecha_sitemap);
         $fecha_separada = explode('-', $fechas);
 
         $new_date = $fecha_separada[2] . "-" . $fecha_separada[1] . "-" . $fecha_separada[0];
 
         if ($value['seo'] === 'false') {
-          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/our-jobs/post/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . "T20:31:08+00:00</lastmod>\n<priority>1.00</priority>\n</url>\n";
+          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/nuestros-trabajos/post/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . "T20:31:08+00:00</lastmod>\n<priority>1.00</priority>\n</url>\n";
         } else {
           $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . "T20:31:08+00:00</lastmod>\n<priority>1.00</priority>\n</url>\n";
         }

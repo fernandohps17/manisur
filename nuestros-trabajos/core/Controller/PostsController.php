@@ -513,7 +513,7 @@ function redimensionImg($max_ancho, $imagen, $mobile, $folder)
 }
 
 // Funcion encargada de editar el post si hay nueva imagen
-function edit_post_with_img($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $id, $imgPortada, $imgPortadaWebp, $imgMobile, $imgMobileWebp, $published, $fecha, $update_fecha, $seo, $sitemap)
+function edit_post_with_img($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $id, $imgPortada, $imgPortadaWebp, $imgMobile, $imgMobileWebp, $published, $fecha, $seo, $sitemap, $update_fecha)
 {
   try {
     $conn = open_db();
@@ -553,7 +553,7 @@ function edit_post_with_img($title, $title_en, $meta_title, $meta_title_en, $des
 }
 
 // Funcion encargada de editar los post sin no hay imagen nueva
-function edit_post_without_img($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $id, $published, $fecha, $update_fecha, $seo, $sitemap)
+function edit_post_without_img($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $id, $published, $fecha, $seo, $sitemap, $update_fecha)
 {
   try {
     $conn = open_db();
@@ -631,10 +631,16 @@ function update_sitemap_posts()
     $meses_ES = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", " de ");
     $meses_NUM = array("01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "-");
 
+    
     foreach ($posts as $value) {
+      if (isset($value['update_fecha']) ) {
+        $fecha_sitemap = $value['update_fecha'];
+      } else {
+        $fecha_sitemap = $value['fecha'];
+      }
       // validamos si queremos indexar la url
       if ($value['sitemap'] === 'true') {
-        $fechas = str_replace($meses_ES, $meses_NUM, $value['fecha']);
+        $fechas = str_replace($meses_ES, $meses_NUM, $fecha_sitemap);
         $fecha_separada = explode('-', $fechas);
 
         $new_date = $fecha_separada[2] . "-" . $fecha_separada[1] . "-" . $fecha_separada[0];

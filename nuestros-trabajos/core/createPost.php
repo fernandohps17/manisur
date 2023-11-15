@@ -35,7 +35,6 @@ if (isset($_FILES['image'])) {
   $meses_EN = array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "-");
 
   $fecha = str_replace($meses_EN, $meses_ES, $cadena_nuevo_formato);
-  $update_fecha = str_replace($meses_EN, $meses_ES, $cadena_nuevo_formato);
 
   // Redimencionamos, creamos img, creamos webp, enviamos a carpeta blog dentro de img y retornamos nameImg
   list($imgPortada, $imgPortadaWebp) = redimensionImg(1000, $imagen, false, $uri);

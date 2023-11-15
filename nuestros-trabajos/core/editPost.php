@@ -26,14 +26,20 @@ $post_url = (isset($_POST['post-url']) ? 'true' : 'false');
 $oldSeo = htmlentities(addslashes($_POST['oldSeo']));
 $sitemap = ($_POST['sitemap']) ? 'false' : 'true';
 
+$meses_ES = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "-");
+$meses_EN = array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "-");
+
+  $cadena_fecha_mysql_update = strftime("%Y-%m-%d");
+  $objeto_DateTime_update = date_create_from_format('Y-m-d', $cadena_fecha_mysql_update);
+  $cadena_nuevo_formato_update = date_format($objeto_DateTime_update, "d-F-Y");
+
+  $update_fecha = str_replace($meses_EN, $meses_ES, $cadena_nuevo_formato_update);
+
 if ($published != $oldStatus) {
   setlocale(LC_TIME, 'es_ES.UTF-8');
   $cadena_fecha_mysql = strftime("%Y-%m-%d");
   $objeto_DateTime = date_create_from_format('Y-m-d', $cadena_fecha_mysql);
   $cadena_nuevo_formato = date_format($objeto_DateTime, "d-F-Y");
-
-  $meses_ES = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", " - ");
-  $meses_EN = array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "-");
 
   $fecha = str_replace($meses_EN, $meses_ES, $cadena_nuevo_formato);
 } else {
@@ -99,9 +105,9 @@ if ($_FILES['image']['name'] == "") {
 }
 
 if (isset($imgPortada)) {
-  edit_post_with_img($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $id, $imgPortada, $imgPortadaWebp, $imgMobile, $imgMobileWebp, $published, $fecha, $post_url, $sitemap);
+  edit_post_with_img($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $id, $imgPortada, $imgPortadaWebp, $imgMobile, $imgMobileWebp, $published, $fecha, $post_url, $sitemap, $update_fecha);
 } else {
-  edit_post_without_img($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $id, $published, $fecha, $post_url, $sitemap);
+  edit_post_without_img($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $id, $published, $fecha, $post_url, $sitemap, $update_fecha);
 }
 
-header("Location: $path");
+header("Location: $path/");
