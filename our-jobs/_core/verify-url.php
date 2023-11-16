@@ -8,8 +8,8 @@
   $validate = verify_url($url);
 
   if($validate){
-    echo "<strong class='no-url'>La url ingresada esta siendo usada por otro post</strong>";
+    echo "<strong class='no-url'>The url entered is being used by another post</strong>";
   }else{
-    echo "<strong class='yes-url'>La url ingresada es correcta y no esta siendo usada</strong>";
+    echo "<strong class='yes-url'>The url entered is correct and is not being used</strong>";
   }
 ?>

@@ -35,7 +35,6 @@ if (isset($_FILES['image'])) {
   $meses_EN = array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "-");
 
   $fecha = str_replace($meses_EN, $meses_ES, $cadena_nuevo_formato);
-  $update_fecha = str_replace($meses_EN, $meses_ES, $cadena_nuevo_formato);
 
   // Redimencionamos, creamos img, creamos webp, enviamos a carpeta blog dentro de img y retornamos nameImg
   list($imgPortada, $imgPortadaWebp) = redimensionImg(1000, $imagen, false, $uri);
@@ -43,7 +42,7 @@ if (isset($_FILES['image'])) {
 
   // Si hubo un error con la imagen redireccionamos al crear post y mostramos el error
   if (!isset($imgPortada)) {
-    header("Location: /our-jobs/crear-post/");
+    header("Location: /our-jobs/create-post/");
     exit();
   }
 
@@ -62,7 +61,7 @@ if (isset($_FILES['image'])) {
 
   copy('../template/postTemplate.php', "$path/index.php");
 
-  insert_post($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $imgPortada, $imgPortadaWebp, $imgMobile, $imgMobileWebp, $fecha, $update_fecha, $published, $url_raiz, $sitemap);
+  insert_post($title, $title_en, $meta_title, $meta_title_en, $description, $description_en, $content, $content_en, $uri, $imgPortada, $imgPortadaWebp, $imgMobile, $imgMobileWebp, $fecha, $published, $url_raiz, $sitemap);
 
   // Obtenemos los posts para verificar si hay que crear  una nueva pagina
   $posts = get_count_posts();
@@ -72,5 +71,5 @@ if (isset($_FILES['image'])) {
 } else {
   $_SESSION['error'] = "No se envio una imagen";
 
-  header("Location: /our-jobs/crear-post/");
+  header("Location: /our-jobs/create-post/");
 }

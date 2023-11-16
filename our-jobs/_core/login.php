@@ -16,7 +16,7 @@
     open_login();
     header("Location: /our-jobs/");
   }else{
-    $_SESSION['error'] = "El usuario o la contraseña son incorrectas";
+    $_SESSION['error'] = "The username or password is incorrect";
     header("Location: /our-jobs/login/");
   }
 

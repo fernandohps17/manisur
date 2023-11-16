@@ -2,11 +2,11 @@
 
 session_start();
 
-require_once($_SERVER["DOCUMENT_ROOT"] . "/our-jobs/components/auth.php");
+require_once($_SERVER["DOCUMENT_ROOT"] . "/nuestros-trabajos/components/auth.php");
 auth_with_title();
 
-require_once $_SERVER["DOCUMENT_ROOT"] . "/our-jobs/core/conexion.php";
-require_once $_SERVER["DOCUMENT_ROOT"] . "/our-jobs/core/Controller/PostsController.php";
+require_once $_SERVER["DOCUMENT_ROOT"] . "/nuestros-trabajos/core/conexion.php";
+require_once $_SERVER["DOCUMENT_ROOT"] . "/nuestros-trabajos/core/Controller/PostsController.php";
 
 $title = htmlentities(addslashes($_POST['title']));
 $title_en = htmlentities(addslashes($_POST['title_en']));
@@ -58,7 +58,7 @@ if ($_FILES['image']['name'] != "") {
 
   // Si hubo un error redireccionamos al edit post y mostramos el error
   if (!isset($imgPortada)) {
-    header("Location: /our-jobs/edit-post/");
+    header("Location: /nuestros-trabajos/edit-post/");
     exit();
   }
 

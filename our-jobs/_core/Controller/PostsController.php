@@ -646,7 +646,7 @@ function update_sitemap_posts()
         $new_date = $fecha_separada[2] . "-" . $fecha_separada[1] . "-" . $fecha_separada[0];
 
         if ($value['seo'] === 'false') {
-          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/our-jobs/post/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . "T20:31:08+00:00</lastmod>\n<priority>1.00</priority>\n</url>\n";
+          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/nuestros-trabajos/post/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . "T20:31:08+00:00</lastmod>\n<priority>1.00</priority>\n</url>\n";
         } else {
           $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . "T20:31:08+00:00</lastmod>\n<priority>1.00</priority>\n</url>\n";
         }
