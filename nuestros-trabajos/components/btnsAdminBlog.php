@@ -23,7 +23,27 @@
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#ffff" height="24" viewBox="0 -960 960 960" width="24"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h360v80H200v560h560v-360h80v360q0 33-23.5 56.5T760-120H200Zm120-160v-80h320v80H320Zm0-120v-80h320v80H320Zm0-120v-80h320v80H320Zm360-80v-80h-80v-80h80v-80h80v80h80v80h-80v80h-80Z"/></svg>
                 </i>
               </a>
-              <a class="btm-admin btm-secundary4" href="/nuestros-trabajos/cerrar-sesion/" title="Cerrar Sesión"> 
+
+
+
+
+
+
+
+              <a class="btm-admin btm-secundary4" href="/nuestros-trabajos/update-sitemap/" title="Actualizar sitemap"> 
+                <i class="">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#ffff" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-120q-75 0-140.5-28.5t-114-77q-48.5-48.5-77-114T120-480q0-75 28.5-140.5t77-114q48.5-48.5 114-77T480-840q82 0 155.5 35T760-706v-94h80v240H600v-80h110q-41-56-101-88t-129-32q-117 0-198.5 81.5T200-480q0 117 81.5 198.5T480-200q105 0 183.5-68T756-440h82q-15 137-117.5 228.5T480-120Zm112-192L440-464v-216h80v184l128 128-56 56Z"/></svg>
+                </i>
+              </a>
+
+
+
+
+
+
+
+
+              <a class="btm-admin btm-secundary5" href="/nuestros-trabajos/cerrar-sesion/" title="Cerrar Sesión"> 
                 <i class="">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#ffff" height="24" viewBox="0 -960 960 960" width="24"><path d="M240-80q-33 0-56.5-23.5T160-160v-400q0-33 23.5-56.5T240-640h40v-80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720v80h40q33 0 56.5 23.5T800-560v400q0 33-23.5 56.5T720-80H240Zm0-80h480v-400H240v400Zm240-120q33 0 56.5-23.5T560-360q0-33-23.5-56.5T480-440q-33 0-56.5 23.5T400-360q0 33 23.5 56.5T480-280ZM360-640h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80ZM240-160v-400 400Z"/></svg>
                 </i>

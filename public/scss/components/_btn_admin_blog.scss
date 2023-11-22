@@ -41,7 +41,8 @@
   .btm-secundary1,
   .btm-secundary2,
   .btm-secundary3,
-  .btm-secundary4 {
+  .btm-secundary4,
+  .btm-secundary5 {
     z-index: 99;
 
     i {
@@ -86,6 +87,14 @@
 
   .btm-primary.active-btm ~ .btm-secundary4 {
     transform: translateY(-480%);
+
+    i {
+      box-shadow: $shadow;
+    }
+  }
+
+  .btm-primary.active-btm ~ .btm-secundary5 {
+    transform: translateY(-595%);
 
     i {
       box-shadow: $shadow;

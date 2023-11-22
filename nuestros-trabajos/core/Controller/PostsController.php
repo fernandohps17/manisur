@@ -212,9 +212,7 @@ function insert_post($title, $title_en, $meta_title, $meta_title_en, $descriptio
                                   (title, title_en, meta_title, meta_title_en, description, description_en, content, content_en, fecha, update_fecha, img_portada, img_portada_web, img_mobile, img_mobile_web, uri, published, seo, sitemap) VALUES 
                                   (:title, :title_en, :meta_title, :meta_title_en, :description, :description_en, :content, :content_en, :fecha, :update_fecha, :img_portada, :img_portada_web, :img_mobile, :img_mobile_web, :uri, :published, :seo, :sitemap)");
 
-    // $traduccion = file_get_contents("https://www.googleapis.com/language/translate/v2?key=YOUR_API_KEY&q=" . urlencode($insert) . "&source=es&target=en");
-    // $traduccion_json = json_decode($traduccion, true);
-    // $insert = $traduccion_json['data']['translations'][0]['translatedText'];
+
 
     $insert->execute(array(
       ":title" => $title,
@@ -665,3 +663,4 @@ function update_sitemap_posts()
     echo "Ha ocurrido un error en PostsController linea: " . $e->getLine();
   }
 }
+
