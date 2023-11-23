@@ -212,8 +212,6 @@ function insert_post($title, $title_en, $meta_title, $meta_title_en, $descriptio
                                   (title, title_en, meta_title, meta_title_en, description, description_en, content, content_en, fecha, update_fecha, img_portada, img_portada_web, img_mobile, img_mobile_web, uri, published, seo, sitemap) VALUES 
                                   (:title, :title_en, :meta_title, :meta_title_en, :description, :description_en, :content, :content_en, :fecha, :update_fecha, :img_portada, :img_portada_web, :img_mobile, :img_mobile_web, :uri, :published, :seo, :sitemap)");
 
-
-
     $insert->execute(array(
       ":title" => $title,
       ":title_en" => $title_en,
@@ -629,9 +627,9 @@ function update_sitemap_posts()
     $meses_ES = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", " de ");
     $meses_NUM = array("01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "-");
 
-    
+
     foreach ($posts as $value) {
-      if (isset($value['update_fecha']) ) {
+      if (isset($value['update_fecha'])) {
         $fecha_sitemap = $value['update_fecha'];
       } else {
         $fecha_sitemap = $value['fecha'];
@@ -662,5 +660,38 @@ function update_sitemap_posts()
   } catch (Exception $e) {
     echo "Ha ocurrido un error en PostsController linea: " . $e->getLine();
   }
+
+
 }
 
+// Funcion para actualizar la fecha del sitemap
+function update_sistemap_date()
+{
+
+  try {
+
+    $cadena_fecha_mysql_update = strftime("%Y-%m-%d");
+    $objeto_DateTime_update = date_create_from_format('Y-m-d', $cadena_fecha_mysql_update);
+    $cadena_nuevo_formato_update = date_format($objeto_DateTime_update, "d-F-Y");
+
+
+    $meses_ES = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "-");
+    $meses_EN = array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "-");
+
+
+    $update_fecha = str_replace($meses_EN, $meses_ES, $cadena_nuevo_formato_update);
+
+    $conn = open_db();
+
+    $update_post = $conn->prepare("UPDATE posts SET update_fecha=:update_fecha");
+
+    $update_post->execute(array(
+      ":update_fecha" => $update_fecha,
+    ));
+
+    $update_post->closeCursor();
+    return true;
+  } catch (Exception $e) {
+    echo "Ha ocurrido un error en PostsController linea: " . $e->getLine();
+  }
+}

@@ -9,14 +9,10 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/nuestros-trabajos/core/conexion.php";
 require_once $_SERVER["DOCUMENT_ROOT"] . "/nuestros-trabajos/core/Controller/PostsController.php";
 
 
-// $id = "SELECT id FROM posts";
-
-$sql = "UPDATE posts SET update_fecha = CURDATE() WHERE id = 7";
+update_sistemap_date();
 
 
 update_sitemap_posts();
-
-
 
 header("Location: /nuestros-trabajos/");
 

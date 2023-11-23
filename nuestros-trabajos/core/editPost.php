@@ -29,11 +29,11 @@ $sitemap = ($_POST['sitemap']) ? 'false' : 'true';
 $meses_ES = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "-");
 $meses_EN = array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "-");
 
-  $cadena_fecha_mysql_update = strftime("%Y-%m-%d");
-  $objeto_DateTime_update = date_create_from_format('Y-m-d', $cadena_fecha_mysql_update);
-  $cadena_nuevo_formato_update = date_format($objeto_DateTime_update, "d-F-Y");
+$cadena_fecha_mysql_update = strftime("%Y-%m-%d");
+$objeto_DateTime_update = date_create_from_format('Y-m-d', $cadena_fecha_mysql_update);
+$cadena_nuevo_formato_update = date_format($objeto_DateTime_update, "d-F-Y");
 
-  $update_fecha = str_replace($meses_EN, $meses_ES, $cadena_nuevo_formato_update);
+$update_fecha = str_replace($meses_EN, $meses_ES, $cadena_nuevo_formato_update);
 
 if ($published != $oldStatus) {
   setlocale(LC_TIME, 'es_ES.UTF-8');
