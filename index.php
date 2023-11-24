@@ -326,7 +326,6 @@ require_once "./comons/version_css_js.php";
     <script src="/public/js/recatpcha.js"></script>
     <script src="/public/js/testimony.js"></script>
     <script src="/public/js/modal.js"></script>
-    <!-- <script src="/public/js/updateSisteMap.js"></script> -->
 </body>
 
 </html>

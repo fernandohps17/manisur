@@ -27,13 +27,13 @@
   ?>
 
   <?php
-  if (isset($_SESSION['modal'])) {
-    if ($_SESSION['modal'] == true) {
+  if (isset($_SESSION['sitemap'])) {
+    if ($_SESSION['sitemap'] == true) {
       echo '<link rel="stylesheet" href="/public/css/modal.css">
                 <div class="modal">
                   <div class="content_modal">
                     <div class="text textCenter">
-                      ' . $_SESSION['content_modal'] . '
+                      <p>El sitemap se ha actualizado correctamente.</p>
                     </div>
                   </div>
                 </div>
@@ -41,7 +41,7 @@
               
               <script src="/public/js/components/modal.js"></script>';
 
-      $_SESSION['modal'] = false;
+      $_SESSION['sitemap'] = false;
     }
   }
   ?>

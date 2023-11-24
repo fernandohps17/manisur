@@ -612,7 +612,8 @@ function completeText($file)
   return $text;
 }
 
-// Funcion para actualizar el sitemap de los posts
+
+
 function update_sitemap_posts()
 {
   try {
@@ -627,6 +628,7 @@ function update_sitemap_posts()
     $meses_ES = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", " de ");
     $meses_NUM = array("01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "-");
 
+    $currentHour = date('TH:i:sO');
 
     foreach ($posts as $value) {
       if (isset($value['update_fecha'])) {
@@ -642,9 +644,9 @@ function update_sitemap_posts()
         $new_date = $fecha_separada[2] . "-" . $fecha_separada[1] . "-" . $fecha_separada[0];
 
         if ($value['seo'] === 'false') {
-          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/nuestros-trabajos/post/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . "T20:31:08+00:00</lastmod>\n<priority>1.00</priority>\n</url>\n";
+          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/nuestros-trabajos/post/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . $currentHour . "</lastmod>\n<priority>1.00</priority>\n</url>\n";
         } else {
-          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . "T20:31:08+00:00</lastmod>\n<priority>1.00</priority>\n</url>\n";
+          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . $currentHour . "</lastmod>\n<priority>1.00</priority>\n</url>\n";
         }
       }
     }
@@ -664,13 +666,54 @@ function update_sitemap_posts()
 
 }
 
+
+
+// Funcion para actualizar el sitemap de los posts
+function update_sitemap_landing()
+{
+  try {
+    $list_url = [
+      "https://manisur.com/",
+      "https://manisur.com/home/",
+      "https://manisur.com/servicios/",
+      "https://manisur.com/services/",
+      "https://manisur.com/nuestros-trabajos/",
+      "https://manisur.com/our-jobs/",
+      "https://manisur.com/contacto/",
+      "https://manisur.com/contact/"
+    ];
+
+    $fechaActual = date('Y-m-d\TH:i:sO');
+    $texto = "<?xml version='1.0' encoding='UTF-8'?>\n";
+    $texto .= "<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd'>\n";
+
+    foreach ($list_url as $value) {
+        $texto .= "<url>\n<loc>". $value ."</loc>\n<lastmod>". "$fechaActual" ."</lastmod>\n<priority>1.00</priority>\n</url>\n";
+      }
+    
+
+    $texto .= "</urlset>";
+
+    $file = '../../sitemap-landings.xml';
+    $fp = fopen($file, "w+");
+    fwrite($fp, $texto);
+    fclose($fp);
+
+    return true;
+  } catch (Exception $e) {
+    echo "Ha ocurrido un error en PostsController linea: " . $e->getLine();
+  }
+
+
+}
+
 // Funcion para actualizar la fecha del sitemap
 function update_sistemap_date()
 {
 
   try {
 
-    $cadena_fecha_mysql_update = strftime("%Y-%m-%d");
+    $cadena_fecha_mysql_update = date('Y-m-d');
     $objeto_DateTime_update = date_create_from_format('Y-m-d', $cadena_fecha_mysql_update);
     $cadena_nuevo_formato_update = date_format($objeto_DateTime_update, "d-F-Y");
 
