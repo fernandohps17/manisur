@@ -34,7 +34,7 @@ require_once "./comons/version_css_js.php";
                 "@type": "PostalAddress",
                 "addressLocality": "Polígono industrial Tres caminos Puerto Real (Cádiz)"
             },
-            "url": "https://www.manisur.es/"
+            "url": "https://www.manisur.com/"
         }
     </script>
 </head>
@@ -44,7 +44,6 @@ require_once "./comons/version_css_js.php";
         <?php
         require_once './comons/bannerTop.php';
         ?>
-
 
         <?php
         $inicio = "";
@@ -65,7 +64,6 @@ require_once "./comons/version_css_js.php";
         }
         ?>
 
-
         <!-- MENU -->
         <div class="container bg_blue">
             <div class="content">
@@ -77,7 +75,6 @@ require_once "./comons/version_css_js.php";
                     </div>
 
                     <div class="menu_enlaces" id="menuMobile">
-
                         <nav class="menu_enlaces_a">
                             <p class="closeMenu" id="closeMenu">X</p>
                             <a href="/" class="<?php echo $inicio ?>"><strong>INICIO</strong></a>
@@ -118,7 +115,6 @@ require_once "./comons/version_css_js.php";
             </div>
         </div>
 
-
         <!-- Seccion del header -->
         <div class="banner">
             <div class="header">
@@ -126,19 +122,11 @@ require_once "./comons/version_css_js.php";
                 <p id="subtitle">Uso industrial, naval y doméstico</p>
             </div>
             <div class="header_img">
-
                 <picture class="picture-defer">
                     <source id="sourceMobile" media="(max-width: 600px)" class="image source" type='image/webp' data-img="/public/img/banner-inicio-01-mobile.webp">
                     <source id="sourceDes" class="image source" type='image/webp' data-img="/public/img/banner-inicio-01.webp">
                     <img id="imageDes" class="image" data-img="/public/img/banner-inicio-01.jpg" alt="Manisur" title="Manisur" width="100" height="100">
                 </picture>
-
-
-                <!-- <picture>
-                    <source id="sourceMobile" media="(max-width: 600px)" srcset="/public/img/banner-inicio-01-mobile.webp">
-                    <source id="sourceDes" type='image/webp' srcset="/public/img/banner-inicio-01.webp">
-                    <img id="imageDes" class="imageSlider" src="/public/img/banner-inicio-01.jpg" alt="Manisur" title="Manisur" width="100" height="100">
-                </picture> -->
             </div>
             <div class="arrow_right" id="arrow_right">
                 <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
@@ -156,12 +144,10 @@ require_once "./comons/version_css_js.php";
         require_once './comons/iconPrincipal.php';
         ?>
 
-
         <!-- Seccion About -->
         <div class="container">
             <div class="content">
                 <div class="about">
-
                     <div class="about_content">
                         <section class="about_content_text">
                             <header class="title">
@@ -180,12 +166,10 @@ require_once "./comons/version_css_js.php";
                             <img class="image" data-img="./public/img/quienes-somos.jpg" alt="Manisur quienes somos" title="Manisur quienes somos" width="100" height="100">
                         </picture>
                     </div>
-
                 </div>
             </div>
         </div>
         <br>
-
 
         <!-- Section certificado -->
         <div class="container">
@@ -278,9 +262,7 @@ require_once "./comons/version_css_js.php";
         </div>
 
         <?php
-        // Section From
         require_once './comons/form.php';
-        // Barra con frase
         require_once './comons/barInfo.php';
         ?>
 
@@ -292,7 +274,6 @@ require_once "./comons/version_css_js.php";
                 ?>
             </div>
         </div>
-
 
         <!-- Paragrah of contact -->
         <div class="container">
@@ -308,7 +289,6 @@ require_once "./comons/version_css_js.php";
                 </div>
             </div>
         </div>
-
 
         <?php
         require_once './comons/mapa.php';
@@ -327,5 +307,4 @@ require_once "./comons/version_css_js.php";
     <script src="/public/js/testimony.js"></script>
     <script src="/public/js/modal.js"></script>
 </body>
-
 </html>

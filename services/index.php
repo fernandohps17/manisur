@@ -41,29 +41,16 @@ require_once "../comons/version_css_js.php";
 
 <body>
     <main>
-
-
-
-
-
-
-
-
         <!-- Banner top -->
         <div class="container" id="inicio">
             <div class="content">
                 <div class="banner_top">
-
                     <div class="banner_top_logo">
                         <a href="/home/">
                             <picture class="picture-defer">
                                 <source class="image source" type='image/webp' data-img="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-logo.webp">
                                 <img class="image" data-img="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-logo.jpg" alt="Manisur Logo" title="Manisur Logo" width="112" height="126">
                             </picture>
-                            <!-- <picture class="picture-defer">
-                        <source type='image/webp' srcset="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-logo.webp">
-                        <img src="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-logo.jpg" alt="Manisur" title="Manisur certificado" width="112" height="126">
-                    </picture> -->
                         </a>
                     </div>
 
@@ -88,10 +75,6 @@ require_once "../comons/version_css_js.php";
                     </div>
 
                     <div class="banner_top_certificado">
-                        <!-- <picture class="picture-defer">
-                    <source type='image/webp' srcset="/public/img/certificado2.webp">
-                    <img src="/public/img/certificado2.jpg" alt="Manisur" title="Manisur certificado" width="112" height="126">
-                </picture> -->
                         <picture class="picture-defer">
                             <source class="image source" type='image/webp' data-img="/public/img/certificado2.webp">
                             <img class="image" data-img="/public/img/certificado2.jpg" alt="Manisur Certificado" title="Manisur Certificado" width="112" height="126">
@@ -101,15 +84,10 @@ require_once "../comons/version_css_js.php";
                             <source class="image source" type='image/webp' data-img="/public/img/certificado1.webp">
                             <img class="image" data-img="/public/img/certificado1.jpg" alt="Manisur Certificado" title="Manisur Certificado" width="112" height="126">
                         </picture>
-                        <!-- <picture class="picture-defer">
-                    <source type='image/webp' srcset="/public/img/certificado1.webp">
-                    <img src="/public/img/certificado1.jpg" alt="Manisur" title="Manisur certificado" width="112" height="126">
-                </picture> -->
                     </div>
                 </div>
             </div>
         </div>
-
 
         <?php
         $home = "";
@@ -130,7 +108,6 @@ require_once "../comons/version_css_js.php";
         }
         ?>
 
-
         <!-- MENU -->
         <div class="container bg_blue">
             <div class="content">
@@ -142,7 +119,6 @@ require_once "../comons/version_css_js.php";
                     </div>
 
                     <div class="menu_enlaces" id="menuMobile">
-
                         <nav class="menu_enlaces_a">
                             <p class="closeMenu" id="closeMenu">X</p>
                             <a href="/home/" class="<?php echo $home ?>"><strong>HOME</strong></a>
@@ -183,10 +159,6 @@ require_once "../comons/version_css_js.php";
             </div>
         </div>
 
-
-
-
-
         <!-- Seccion del header -->
         <div class="banner">
             <div class="header">
@@ -201,17 +173,6 @@ require_once "../comons/version_css_js.php";
                 </picture>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
 
         <!-- ICON PRINCIPAL -->
         <div class="container bg_icon_principal">
@@ -328,18 +289,14 @@ require_once "../comons/version_css_js.php";
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-
 
         <!-- Section From -->
         <div class="container bg_form_services">
             <div class="content">
                 <div class="contact_services">
-
-
                     <div class="contact_contet_services">
                         <section>
                             <header class="contact_content_title_services">
@@ -408,10 +365,7 @@ require_once "../comons/version_css_js.php";
                         </div>
                     </div>
 
-
-
                     <div class="contact_form_services">
-
                         <form action="/contact-services/" method="POST">
                             <section>
                                 <header class="contact_form_titles_services">
@@ -448,23 +402,16 @@ require_once "../comons/version_css_js.php";
                                 <button type="submit">SEND</button>
                             </div>
                         </form>
-
                     </div>
-
-
                 </div>
             </div>
         </div>
-
 
         <!-- section servicios -->
         <div class="container">
             <div class="content">
                 <div class="services">
-
                     <div class="services_display">
-
-
                         <div class="services_content">
                             <picture class="picture-defer">
                                 <source class="image source" type='image/webp' data-img="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-servicios-frio.webp">
@@ -490,12 +437,9 @@ require_once "../comons/version_css_js.php";
                                 <p>Refrigerators, freezers, ice making, etc.</p>
                             </section>
                         </div>
-
                     </div>
 
-
                     <div class="services_display">
-
                         <div class="services_content">
                             <picture class="picture-defer">
                                 <source class="image source" type='image/webp' data-img="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-servicios-hosteleria.webp">
@@ -521,16 +465,12 @@ require_once "../comons/version_css_js.php";
                                 <p>Air Conditioning</p>
                             </section>
                         </div>
-
                     </div>
                 </div><br>
-
-
 
                 <div class="subtitle">
                     <p>The raw materials used are all the material related to cold, and their origin is both national and Community production.</p><br>
                     <p>Our main suppliers are:</p><br>
-
                     <div class="contact_list_services">
                         <div>
                             <li class="subtitle"><span>TRANE INTERNATIONAL, S.A.</span><br></li>
@@ -570,12 +510,10 @@ require_once "../comons/version_css_js.php";
                             <li class="subtitle"><span>ATLANTIC STAINLESS STEEL</span><br></li>
                         </div>
                     </div><br>
-
                     <p>In places beyond our influence and to fulfill our commitments, qualified personnel are deployed for customer service, maintaining business relationships with companies located in all the places where we develop our work.</p><br><br>
                 </div>
             </div>
         </div>
-
 
         <!-- Section Footer -->
         <div class="container bg_footer1">
@@ -614,5 +552,4 @@ require_once "../comons/version_css_js.php";
     <script src="/public/js/modal.js"></script>
 
 </body>
-
 </html>

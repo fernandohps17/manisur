@@ -17,36 +17,29 @@
           <input id="title-input" type="text" name="title" required>
         </div>
 
-
         <div class="gruop">
           <label class="text" for=""><strong>Meta Título del Post</strong></label>
           <input type="text" name="meta_title" required>
         </div>
 
-
         <div class="gruop">
           <p class="label-file" id="btn-generate-uri">GENERAR URL</p>
         </div>
-
 
         <div class="gruop">
           <label class="text" for=""><strong>URL del Post</strong></label>
           <input type="text" name="uri" id='input-uri' required>
         </div>
 
-
         <div class="gruop">
           <p id="response-input"></p>
           <p class="label-file" id="btn-verify-uri">VERIFICAR URL</p>
         </div>
 
-
         <div class="gruop">
           <label class="text" for=""><strong>Agregar una descripción que atraiga al usuario</strong></label>
           <textarea class='text-description' name="description"></textarea>
         </div>
-
-
 
         <div class="gruop">
           <div class="text">
@@ -62,9 +55,7 @@
           <textarea id="txtEditor" name="content" value=""></textarea>
         </div><br><br><br>
 
-
         <!-- Publicacion del post en ingles -->
-
         <div class="title">
           <h1>Create a new Post</h1>
         </div>
@@ -79,55 +70,20 @@
           <input type="text" name="meta_title_en" required>
         </div>
 
-
-        <!-- <div class="gruop">
-          <p class="label-file" id="btn-generate-uri_en">GENERAR URL</p>
-        </div> -->
-
-
-
-        <!-- <div class="gruop">
-          <label class="text" for=""><strong>URL del Post</strong></label>
-          <input type="text" name="uri_en" id='input-uri_en' required>
-        </div> -->
-
-
-
-        <!-- <div class="gruop">
-          <p id="response-input_en"></p>
-          <p class="label-file" id="btn-verify-uri_en">VERIFICAR URL</p>
-        </div> -->
-
-
-
-
-
-
-
         <div class="gruop">
           <label class="text" for=""><strong>Add a description that attracts the user</strong></label>
           <textarea class='text-description' name="description_en"></textarea>
         </div>
-
-
 
         <div class="area-content">
           <label class="text" for=""><strong>Post Content</strong></label>
           <textarea id="txtEditor_en" name="content_en" value=""></textarea>
         </div>
 
-
-
-
-
-
-
         <div class="public-post">
           <input type="checkbox" name="public-post" id="public-post">
           <label class="text" for="public-post"><strong>¿Publicar Post?</strong></label>
         </div>
-
-
 
         <div class="public-post">
           <input type="checkbox" name="post-raiz" id="post-raiz">

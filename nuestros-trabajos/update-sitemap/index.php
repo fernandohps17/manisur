@@ -11,11 +11,6 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/nuestros-trabajos/components/modal_si
 
 update_sitemap_landing();
 update_sistemap_date();
-
-
 update_sitemap_posts();
-
-
-
 
 header("Location: /nuestros-trabajos/");

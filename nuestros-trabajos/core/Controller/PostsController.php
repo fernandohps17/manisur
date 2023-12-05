@@ -447,8 +447,6 @@ function redimensionImg($max_ancho, $imagen, $mobile, $folder)
       $nombreSplice = explode('.', $nombrearchivo);
       $nombreWebp = $nombreSplice[0] . '.webp';
 
-
-
       // Validamos si la imagen es para mobile para agregarle -mobile al final
       if ($mobile) {
         $nombrearchivo = $nombreSplice[0] . '-mobile.' . $nombreSplice[1];
@@ -612,8 +610,6 @@ function completeText($file)
   return $text;
 }
 
-
-
 function update_sitemap_posts()
 {
   try {
@@ -662,11 +658,7 @@ function update_sitemap_posts()
   } catch (Exception $e) {
     echo "Ha ocurrido un error en PostsController linea: " . $e->getLine();
   }
-
-
 }
-
-
 
 // Funcion para actualizar el sitemap de los posts
 function update_sitemap_landing()

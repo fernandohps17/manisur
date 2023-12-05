@@ -45,9 +45,6 @@ require_once "../comons/version_css_js.php";
         require_once '../comons/bannerTop.php';
         ?>
 
-
-
-
         <?php
         $inicio = "";
         $servicios = "";
@@ -67,7 +64,6 @@ require_once "../comons/version_css_js.php";
         }
         ?>
 
-
         <!-- MENU -->
         <div class="container bg_blue">
             <div class="content">
@@ -79,7 +75,6 @@ require_once "../comons/version_css_js.php";
                     </div>
 
                     <div class="menu_enlaces" id="menuMobile">
-
                         <nav class="menu_enlaces_a">
                             <p class="closeMenu" id="closeMenu">X</p>
                             <a href="/" class="<?php echo $inicio ?>"><strong>INICIO</strong></a>
@@ -120,24 +115,6 @@ require_once "../comons/version_css_js.php";
             </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <!-- Seccion del header -->
         <div class="banner">
             <div class="header">
@@ -155,17 +132,12 @@ require_once "../comons/version_css_js.php";
 
         <?php
         require_once '../comons/iconPrincipal.php';
-        // require_once '../comons/form.php';
         ?>
-
-
 
         <!-- Section From -->
         <div class="container bg_form_services">
             <div class="content">
                 <div class="contact_services">
-
-
                     <div class="contact_contet_services">
                         <section>
                             <header class="contact_content_title_services">
@@ -234,10 +206,7 @@ require_once "../comons/version_css_js.php";
                         </div>
                     </div>
 
-
-
                     <div class="contact_form_services">
-
                         <form action="/contact-servicios/" method="POST">
                             <section>
                                 <header class="contact_form_titles_services">
@@ -274,24 +243,16 @@ require_once "../comons/version_css_js.php";
                                 <button type="submit">ENVIAR</button>
                             </div>
                         </form>
-
                     </div>
-
-
                 </div>
             </div>
         </div>
-
-
 
         <!-- section servicios -->
         <div class="container">
             <div class="content">
                 <div class="services">
-
                     <div class="services_display">
-
-
                         <div class="services_content">
                             <picture class="picture-defer">
                                 <source class="image source" type='image/webp' data-img="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-servicios-frio.webp">
@@ -317,12 +278,9 @@ require_once "../comons/version_css_js.php";
                                 <p>Frigoríficos, congeladores, fabricación de hielo, etc.</p>
                             </section>
                         </div>
-
                     </div>
 
-
                     <div class="services_display">
-
                         <div class="services_content">
                             <picture class="picture-defer">
                                 <source class="image source" type='image/webp' data-img="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-servicios-hosteleria.webp">
@@ -348,16 +306,12 @@ require_once "../comons/version_css_js.php";
                                 <p>Aire Acondicionado</p>
                             </section>
                         </div>
-
                     </div>
                 </div><br>
-
-
 
                 <div class="subtitle">
                     <p>Las materias primas empleadas, son todo el material relacionado con el frío, y su origen es tanto de producción nacional como comunitaria.</p><br>
                     <p>Nuestros principales proveedores son:</p><br>
-
                     <div class="contact_list_services">
                         <div>
                             <li class="subtitle"><span>TRANE INTERNATIONAL, S.A.</span><br></li>
@@ -397,13 +351,8 @@ require_once "../comons/version_css_js.php";
                             <li class="subtitle"><span>ACERO INOXIDABLES DEL ATLANTICO</span><br></li>
                         </div>
                     </div><br>
-
                     <p>En lugares fuera de nuestra influencia y para cumplir nuestros compromisos, se desplaza personal cualificado para la atención del cliente, manteniendo relaciones comerciales con empresas localizadas en todos los lugares que en los cuales desarrollamos nuestros trabajos.</p><br><br>
                 </div>
-
-
-
-
             </div>
         </div>
 
@@ -419,7 +368,5 @@ require_once "../comons/version_css_js.php";
     <script src="/public/js/menu.js"></script>
     <script src="/public/js/recatpcha.js"></script>
     <script src="/public/js/modal.js"></script>
-
 </body>
-
 </html>
