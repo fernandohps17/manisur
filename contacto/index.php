@@ -45,10 +45,6 @@ require_once "../comons/version_css_js.php";
         require_once '../comons/bannerTop.php';
         ?>
 
-
-
-
-
         <?php
         $inicio = "";
         $servicios = "";
@@ -68,7 +64,6 @@ require_once "../comons/version_css_js.php";
         }
         ?>
 
-
         <!-- MENU -->
         <div class="container bg_blue">
             <div class="content">
@@ -80,7 +75,6 @@ require_once "../comons/version_css_js.php";
                     </div>
 
                     <div class="menu_enlaces" id="menuMobile">
-
                         <nav class="menu_enlaces_a">
                             <p class="closeMenu" id="closeMenu">X</p>
                             <a href="/" class="<?php echo $inicio ?>"><strong>INICIO</strong></a>
@@ -121,12 +115,6 @@ require_once "../comons/version_css_js.php";
             </div>
         </div>
 
-
-
-
-
-
-
         <!-- Seccion del header -->
         <div class="banner">
             <div class="header">
@@ -144,7 +132,6 @@ require_once "../comons/version_css_js.php";
         <?php
         require_once '../comons/iconPrincipal.php';
         ?><br><br>
-
 
         <!-- Section de info sede -->
         <div class="container">
@@ -174,7 +161,6 @@ require_once "../comons/version_css_js.php";
                     </section><br>
 
                     <div class="contacto_img">
-
                         <picture class="picture-defer">
                             <source class="image source" type='image/webp' data-img="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-sede1.webp">
                             <img class="image" data-img="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-sede1.jpg" alt="Manisur imagenes contacto" title="Manisur imagenes contacto" width="100" height="100">
@@ -184,13 +170,10 @@ require_once "../comons/version_css_js.php";
                             <source class="image source" type='image/webp' data-img="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-sede2.webp">
                             <img class="image" data-img="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-sede2.jpg" alt="Manisur imagenes contacto" title="Manisur imagenes contacto" width="100" height="100">
                         </picture>
-
                     </div>
                 </div>
             </div>
         </div>
-
-
 
         <br>
         <!-- Paragrah of contact -->
@@ -209,7 +192,6 @@ require_once "../comons/version_css_js.php";
         </div>
         <br>
 
-
         <!-- Section form two -->
         <div class="container bg_form_two">
             <div class="content">
@@ -226,7 +208,6 @@ require_once "../comons/version_css_js.php";
                     <div class="from_contact_two_from">
                         <form action="/contact-contact/" method="POST">
                             <label class="from_contact_two_from_spacing">
-
                                 <div class="from_contact_two_from_display">
                                     <label class="from_contact_two_from_input">
                                         <p>Nombre y apellidos</p>
@@ -253,20 +234,17 @@ require_once "../comons/version_css_js.php";
                                     <input type="checkbox" required>
                                     <p>He leído y aceptado la <a href="/politicas-de-privacidad/">política de privacidad</a></p>
                                 </label>
-
                             </label>
 
                             <div class="from_contact_two_button">
                                 <input type="hidden" class="g-recaptcha-response" name="g-recaptcha-response">
                                 <button type="submit">ENVIAR</button>
                             </div>
-
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-
 
         <?php
         require_once '../comons/mapa.php';
@@ -283,5 +261,4 @@ require_once "../comons/version_css_js.php";
     <script src="/public/js/recatpcha.js"></script>
     <script src="/public/js/modal.js"></script>
 </body>
-
 </html>
