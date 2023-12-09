@@ -1,8 +1,6 @@
 <div class="container bg_form">
     <div class="content">
         <div class="contact">
-
-
             <div class="contact_contet">
                 <section>
                     <header class="contact_content_title">
@@ -71,10 +69,7 @@
                 </div>
             </div>
 
-
-
             <div class="contact_form">
-
                 <form action="/contact/" method="POST">
                     <section>
                         <header class="contact_form_titles">
@@ -111,10 +106,7 @@
                         <button type="submit">ENVIAR</button>
                     </label>
                 </form>
-
             </div>
-
-
         </div>
     </div>
 </div>

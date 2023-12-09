@@ -8,7 +8,7 @@
       <div class="inner text-cookie">
           <p>We use our own and third-party cookies for analytical purposes and to show you personalized advertising based on a profile created according to your browsing habits (e.g. pages visited). More information and configuration of these in the Personalize cookies button.</p>
 
-          <p>You can change the  <span id="custom-cookie">settings</span>, and/or reject, as well as obtain more information by clicking on <a href="/politicas-de-cookies/" aria-label="Políticas de Cookies" target="_blank" class="info">Cookie Policies</a></p>
+          <p>You can change the <span id="custom-cookie">settings</span>, and/or reject, as well as obtain more information by clicking on <a href="/politicas-de-cookies/" aria-label="Políticas de Cookies" target="_blank" class="info">Cookie Policies</a></p>
       </div>
 
       <div class="botones">
@@ -25,7 +25,7 @@
           </div>
           <div class="text-cookie padding">
               <p>Cookies are important for the correct functioning of a page. To improve your browsing experience, we use cookies to retain login information and provide you with a secure connection, optimize website performance, offer you additional services, collect anonymous statistics to optimize site features, tailor content to your interests and allows you to share content on social networks. You can select your choice for each category of cookies, and you can change your choice at any time from the
-              <a href="/cookie-policies/" aria-label="Políticas de Cookies">cookies page</a>
+                  <a href="/cookie-policies/" aria-label="Políticas de Cookies">cookies page</a>
               </p>
           </div>
           <div class="btns-cookie padding">

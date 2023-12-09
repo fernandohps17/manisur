@@ -1,16 +1,8 @@
 <div class="container" id="inicio">
     <div class="content">
         <div class="banner_top">
-
             <div class="banner_top_logo">
                 <a href="/">
-
-                    <!-- <picture class="picture-defer">
-                        <source class="image source" type='image/webp' data-img="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-logo.webp">
-                        <img class="image" data-img="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-logo.jpg" alt="Manisur Logo" title="Manisur Logo" width="100" height="100">
-                    </picture> -->
-
-
                     <picture class="picture-defer">
                         <source type='image/webp' srcset="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-logo.webp">
                         <img src="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-logo.jpg" alt="Manisur" title="Manisur certificado" width="112" height="126">
@@ -19,7 +11,6 @@
             </div>
 
             <div class="banner_top_contact">
-
                 <div class="banner_top_contact_tel">
                     <a href="tel:+34956888601" onclick="gtag('event', 'telefonos')">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -37,7 +28,6 @@
                         Enviar WhatsApp
                     </a>
                 </div>
-
             </div>
 
             <div class="banner_top_certificado">
@@ -46,22 +36,11 @@
                     <img src="/public/img/certificado2.jpg" alt="Manisur" title="Manisur certificado" width="112" height="126">
                 </picture>
 
-                <!-- <picture class="picture-defer">
-                    <source class="image source" type='image/webp' data-img="/public/img/certificado2.webp">
-                    <img class="image" data-img="/public/img/certificado2.jpg" alt="Manisur Certificado" title="Manisur Certificado" width="100" height="100">
-                </picture> -->
-
-                <!-- <picture class="picture-defer">
-                    <source class="image source" type='image/webp' data-img="/public/img/certificado1.webp">
-                    <img class="image" data-img="/public/img/certificado1.jpg" alt="Manisur Certificado" title="Manisur Certificado" width="100" height="100">
-                </picture> -->
-
                 <picture class="picture-defer">
                     <source type='image/webp' srcset="/public/img/certificado1.webp">
                     <img src="/public/img/certificado1.jpg" alt="Manisur" title="Manisur certificado" width="112" height="126">
                 </picture>
             </div>
-
         </div>
     </div>
 </div>

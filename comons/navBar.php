@@ -29,7 +29,6 @@ if (strpos($_SERVER['REQUEST_URI'], 'servicios')) {
             </div>
 
             <div class="menu_enlaces" id="menuMobile">
-
                 <nav class="menu_enlaces_a">
                     <p class="closeMenu" id="closeMenu">X</p>
                     <a href="/" class="<?php echo $inicio ?>"><strong>INICIO</strong></a>
@@ -38,10 +37,7 @@ if (strpos($_SERVER['REQUEST_URI'], 'servicios')) {
                     <a href="/contacto/" class="<?php echo $contacto ?>"><strong>CONTACTO</strong></a>
                 </nav>
 
-
                 <div class="menu_social">
-
-
                     <div class="menu_idioma">
                         <div id="google_translate_element"></div>
                         <div class="menu_social_idioma">
@@ -49,8 +45,6 @@ if (strpos($_SERVER['REQUEST_URI'], 'servicios')) {
                             <p class="change_lenguaje" lang="es" id="refresh"><span>|</span> ESP</p>
                         </div>
                     </div>
-
-
 
                     <div class="menu_social_icon">
                         <a href="https://www.instagram.com/" title="instagram" target="_blank" class="menu_social_icon_svg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -73,9 +67,6 @@ if (strpos($_SERVER['REQUEST_URI'], 'servicios')) {
                     <p class="change_lenguaje" lang="es" id="refresh2"><span>|</span> ESP</p>
                 </div>
             </div>
-
-
-
         </div>
     </div>
 </div>
