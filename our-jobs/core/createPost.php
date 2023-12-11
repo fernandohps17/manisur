@@ -1,14 +1,14 @@
 <?php
 session_start();
 
-require_once($_SERVER["DOCUMENT_ROOT"] . "/our-jobs/components/auth.php");
+require_once($_SERVER["DOCUMENT_ROOT"] . "/nuestros-trabajos/components/auth.php");
 auth_with_title();
 
 // Validamos que se haya enviado una imagen
 if (isset($_FILES['image'])) {
 
-  require_once $_SERVER["DOCUMENT_ROOT"] . "/our-jobs/core/conexion.php";
-  require_once $_SERVER["DOCUMENT_ROOT"] . "/our-jobs/core/Controller/PostsController.php";
+  require_once $_SERVER["DOCUMENT_ROOT"] . "/nuestros-trabajos/core/conexion.php";
+  require_once $_SERVER["DOCUMENT_ROOT"] . "/nuestros-trabajos/core/Controller/PostsController.php";
 
   $title = htmlentities(addslashes($_POST['title']));
   $title_en = htmlentities(addslashes($_POST['title_en']));
@@ -43,7 +43,7 @@ if (isset($_FILES['image'])) {
 
   // Si hubo un error con la imagen redireccionamos al crear post y mostramos el error
   if (!isset($imgPortada)) {
-    header("Location: /our-jobs/crear-post/");
+    header("Location: /nuestros-trabajos/crear-post/");
     exit();
   }
 
@@ -68,9 +68,9 @@ if (isset($_FILES['image'])) {
   $posts = get_count_posts();
   create_folder($posts);
 
-  header("Location: /our-jobs/");
+  header("Location: /nuestros-trabajos/");
 } else {
   $_SESSION['error'] = "No se envio una imagen";
 
-  header("Location: /our-jobs/crear-post/");
+  header("Location: /nuestros-trabajos/crear-post/");
 }

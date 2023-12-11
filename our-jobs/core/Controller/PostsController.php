@@ -212,10 +212,6 @@ function insert_post($title, $title_en, $meta_title, $meta_title_en, $descriptio
                                   (title, title_en, meta_title, meta_title_en, description, description_en, content, content_en, fecha, update_fecha, img_portada, img_portada_web, img_mobile, img_mobile_web, uri, published, seo, sitemap) VALUES 
                                   (:title, :title_en, :meta_title, :meta_title_en, :description, :description_en, :content, :content_en, :fecha, :update_fecha, :img_portada, :img_portada_web, :img_mobile, :img_mobile_web, :uri, :published, :seo, :sitemap)");
 
-    // $traduccion = file_get_contents("https://www.googleapis.com/language/translate/v2?key=YOUR_API_KEY&q=" . urlencode($insert) . "&source=es&target=en");
-    // $traduccion_json = json_decode($traduccion, true);
-    // $insert = $traduccion_json['data']['translations'][0]['translatedText'];
-
     $insert->execute(array(
       ":title" => $title,
       ":title_en" => $title_en,
@@ -451,8 +447,6 @@ function redimensionImg($max_ancho, $imagen, $mobile, $folder)
       $nombreSplice = explode('.', $nombrearchivo);
       $nombreWebp = $nombreSplice[0] . '.webp';
 
-
-
       // Validamos si la imagen es para mobile para agregarle -mobile al final
       if ($mobile) {
         $nombrearchivo = $nombreSplice[0] . '-mobile.' . $nombreSplice[1];
@@ -616,7 +610,6 @@ function completeText($file)
   return $text;
 }
 
-// Funcion para actualizar el sitemap de los posts
 function update_sitemap_posts()
 {
   try {
@@ -631,9 +624,10 @@ function update_sitemap_posts()
     $meses_ES = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", " de ");
     $meses_NUM = array("01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "-");
 
-    
+    $currentHour = date('TH:i:sO');
+
     foreach ($posts as $value) {
-      if (isset($value['update_fecha']) ) {
+      if (isset($value['update_fecha'])) {
         $fecha_sitemap = $value['update_fecha'];
       } else {
         $fecha_sitemap = $value['fecha'];
@@ -646,9 +640,9 @@ function update_sitemap_posts()
         $new_date = $fecha_separada[2] . "-" . $fecha_separada[1] . "-" . $fecha_separada[0];
 
         if ($value['seo'] === 'false') {
-          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/our-jobs/post/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . "T20:31:08+00:00</lastmod>\n<priority>1.00</priority>\n</url>\n";
+          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/nuestros-trabajos/post/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . $currentHour . "</lastmod>\n<priority>1.00</priority>\n</url>\n";
         } else {
-          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . "T20:31:08+00:00</lastmod>\n<priority>1.00</priority>\n</url>\n";
+          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . $currentHour . "</lastmod>\n<priority>1.00</priority>\n</url>\n";
         }
       }
     }
@@ -660,6 +654,77 @@ function update_sitemap_posts()
     fwrite($fp, $texto);
     fclose($fp);
 
+    return true;
+  } catch (Exception $e) {
+    echo "Ha ocurrido un error en PostsController linea: " . $e->getLine();
+  }
+}
+
+// Funcion para actualizar el sitemap de los posts
+function update_sitemap_landing()
+{
+  try {
+    $list_url = [
+      "https://manisur.com/",
+      "https://manisur.com/home/",
+      "https://manisur.com/servicios/",
+      "https://manisur.com/services/",
+      "https://manisur.com/nuestros-trabajos/",
+      "https://manisur.com/our-jobs/",
+      "https://manisur.com/contacto/",
+      "https://manisur.com/contact-us/"
+    ];
+
+    $fechaActual = date('Y-m-d\TH:i:sO');
+    $texto = "<?xml version='1.0' encoding='UTF-8'?>\n";
+    $texto .= "<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd'>\n";
+
+    foreach ($list_url as $value) {
+        $texto .= "<url>\n<loc>". $value ."</loc>\n<lastmod>". "$fechaActual" ."</lastmod>\n<priority>1.00</priority>\n</url>\n";
+      }
+    
+
+    $texto .= "</urlset>";
+
+    $file = '../../sitemap-landings.xml';
+    $fp = fopen($file, "w+");
+    fwrite($fp, $texto);
+    fclose($fp);
+
+    return true;
+  } catch (Exception $e) {
+    echo "Ha ocurrido un error en PostsController linea: " . $e->getLine();
+  }
+
+
+}
+
+// Funcion para actualizar la fecha del sitemap
+function update_sistemap_date()
+{
+
+  try {
+
+    $cadena_fecha_mysql_update = date('Y-m-d');
+    $objeto_DateTime_update = date_create_from_format('Y-m-d', $cadena_fecha_mysql_update);
+    $cadena_nuevo_formato_update = date_format($objeto_DateTime_update, "d-F-Y");
+
+
+    $meses_ES = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "-");
+    $meses_EN = array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "-");
+
+
+    $update_fecha = str_replace($meses_EN, $meses_ES, $cadena_nuevo_formato_update);
+
+    $conn = open_db();
+
+    $update_post = $conn->prepare("UPDATE posts SET update_fecha=:update_fecha");
+
+    $update_post->execute(array(
+      ":update_fecha" => $update_fecha,
+    ));
+
+    $update_post->closeCursor();
     return true;
   } catch (Exception $e) {
     echo "Ha ocurrido un error en PostsController linea: " . $e->getLine();

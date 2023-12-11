@@ -1,6 +1,6 @@
 <?php
-  require_once $_SERVER["DOCUMENT_ROOT"]."/our-jobs/core/conexion.php";
-  require_once $_SERVER["DOCUMENT_ROOT"]."/our-jobs/core/Controller/PostsController.php";
+  require_once $_SERVER["DOCUMENT_ROOT"]."/nuestros-trabajos/core/conexion.php";
+  require_once $_SERVER["DOCUMENT_ROOT"]."/nuestros-trabajos/core/Controller/PostsController.php";
   
 
   $url = htmlentities(addslashes($_POST['url']));

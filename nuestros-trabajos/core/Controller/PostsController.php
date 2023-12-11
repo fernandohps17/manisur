@@ -672,7 +672,7 @@ function update_sitemap_landing()
       "https://manisur.com/nuestros-trabajos/",
       "https://manisur.com/our-jobs/",
       "https://manisur.com/contacto/",
-      "https://manisur.com/contact/"
+      "https://manisur.com/contact-us/"
     ];
 
     $fechaActual = date('Y-m-d\TH:i:sO');
