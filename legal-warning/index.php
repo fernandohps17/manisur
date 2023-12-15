@@ -311,7 +311,6 @@ require_once "../comons/version_css_js.php";
             </div>
         </div>
 
-
         <!-- Section Footer -->
         <div class="container bg_footer1">
             <div class="content">
@@ -335,8 +334,6 @@ require_once "../comons/version_css_js.php";
                 </footer>
             </div>
         </div>
-
-
 
         <?php
         require_once '../comons/btn_top.php';

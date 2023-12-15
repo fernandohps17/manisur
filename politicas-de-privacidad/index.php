@@ -45,11 +45,6 @@ require_once "../comons/version_css_js.php";
         require_once '../comons/bannerTop.php';
         ?>
 
-
-
-
-
-
         <?php
         $inicio = "";
         $servicios = "";
@@ -69,7 +64,6 @@ require_once "../comons/version_css_js.php";
         }
         ?>
 
-
         <!-- MENU -->
         <div class="container bg_blue">
             <div class="content">
@@ -81,7 +75,6 @@ require_once "../comons/version_css_js.php";
                     </div>
 
                     <div class="menu_enlaces" id="menuMobile">
-
                         <nav class="menu_enlaces_a">
                             <p class="closeMenu" id="closeMenu">X</p>
                             <a href="/" class="<?php echo $inicio ?>"><strong>INICIO</strong></a>
@@ -122,10 +115,6 @@ require_once "../comons/version_css_js.php";
             </div>
         </div>
 
-
-
-
-
         <div class="container">
             <div class="content">
                 <div class="politicas">
@@ -156,9 +145,7 @@ require_once "../comons/version_css_js.php";
                             <li>Divulgación de cualquier información a petición de Jueces o Tribunales.</li>
                             <li>Información referente a datos económicos o de otra índole que deban ser aportados ante la Administración estatal, local o autonómica, por requerimientos fiscales, laborales o de contratación administrativa.</li>
                         </p>
-                        
                     </section>
-
 
                     <section class="politicas_content">
                         <header class="politicas_content_subtitle">

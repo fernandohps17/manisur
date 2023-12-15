@@ -45,10 +45,6 @@ require_once "../comons/version_css_js.php";
         require_once '../comons/bannerTop.php';
         ?>
 
-
-
-
-
         <?php
         $inicio = "";
         $servicios = "";
@@ -68,7 +64,6 @@ require_once "../comons/version_css_js.php";
         }
         ?>
 
-
         <!-- MENU -->
         <div class="container bg_blue">
             <div class="content">
@@ -80,7 +75,6 @@ require_once "../comons/version_css_js.php";
                     </div>
 
                     <div class="menu_enlaces" id="menuMobile">
-
                         <nav class="menu_enlaces_a">
                             <p class="closeMenu" id="closeMenu">X</p>
                             <a href="/" class="<?php echo $inicio ?>"><strong>INICIO</strong></a>
@@ -120,10 +114,6 @@ require_once "../comons/version_css_js.php";
                 </div>
             </div>
         </div>
-
-
-
-
 
         <div class="container">
             <div class="content">
@@ -175,7 +165,6 @@ require_once "../comons/version_css_js.php";
                         </p>
 
                         <p class="politicas_content_paragrah">En resumen, para su conocimiento sepa que utilizamos las siguientes:</p>
-                        
                         <table border="1">
                             <tr>
                                 <th>Cookies</th>
@@ -240,15 +229,10 @@ require_once "../comons/version_css_js.php";
                             <a href="Chrome para Android">Chrome para Android</a>
                         </p>
                     </section>
-
                     <div id="btn-custom-cookie" class="btn-custom-cookie">CONFIGURAR TUS COOKIES</div>
-
-
                 </div>
             </div>
         </div>
-
-
 
         <?php
         require_once '../comons/footer.php';

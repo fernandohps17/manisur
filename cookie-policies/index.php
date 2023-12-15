@@ -176,9 +176,6 @@ require_once "../comons/version_css_js.php";
             </div>
         </div>
 
-
-
-
         <div class="container">
             <div class="content">
                 <div class="politicas">
@@ -296,11 +293,9 @@ require_once "../comons/version_css_js.php";
                     </section>
 
                     <div id="btn-custom-cookie" class="btn-custom-cookie">CONFIGURE YOUR COOKIES</div>
-
                 </div>
             </div>
         </div>
-
 
         <!-- Section Footer -->
         <div class="container bg_footer1">
@@ -325,8 +320,6 @@ require_once "../comons/version_css_js.php";
                 </footer>
             </div>
         </div>
-
-
 
         <?php
         require_once '../comons/btn_top.php';

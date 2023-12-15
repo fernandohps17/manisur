@@ -41,7 +41,6 @@ require_once "../comons/version_css_js.php";
 
 <body>
     <main>
-
         <!-- Banner top -->
         <div class="container" id="inicio">
             <div class="content">
@@ -53,10 +52,6 @@ require_once "../comons/version_css_js.php";
                                 <source class="image source" type='image/webp' data-img="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-logo.webp">
                                 <img class="image" data-img="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-logo.jpg" alt="Manisur Logo" title="Manisur Logo" width="112" height="126">
                             </picture>
-                            <!-- <picture class="picture-defer">
-                        <source type='image/webp' srcset="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-logo.webp">
-                        <img src="/public/img/manisur-aparatos-maquinaria-frio-naval-industrial-y-domestico-logo.jpg" alt="Manisur" title="Manisur certificado" width="112" height="126">
-                    </picture> -->
                         </a>
                     </div>
 
@@ -81,10 +76,6 @@ require_once "../comons/version_css_js.php";
                     </div>
 
                     <div class="banner_top_certificado">
-                        <!-- <picture class="picture-defer">
-                    <source type='image/webp' srcset="/public/img/certificado2.webp">
-                    <img src="/public/img/certificado2.jpg" alt="Manisur" title="Manisur certificado" width="112" height="126">
-                </picture> -->
                         <picture class="picture-defer">
                             <source class="image source" type='image/webp' data-img="/public/img/certificado2.webp">
                             <img class="image" data-img="/public/img/certificado2.jpg" alt="Manisur Certificado" title="Manisur Certificado" width="112" height="126">
@@ -94,15 +85,10 @@ require_once "../comons/version_css_js.php";
                             <source class="image source" type='image/webp' data-img="/public/img/certificado1.webp">
                             <img class="image" data-img="/public/img/certificado1.jpg" alt="Manisur Certificado" title="Manisur Certificado" width="112" height="126">
                         </picture>
-                        <!-- <picture class="picture-defer">
-                    <source type='image/webp' srcset="/public/img/certificado1.webp">
-                    <img src="/public/img/certificado1.jpg" alt="Manisur" title="Manisur certificado" width="112" height="126">
-                </picture> -->
                     </div>
                 </div>
             </div>
         </div>
-
 
         <?php
         $home = "";
@@ -123,7 +109,6 @@ require_once "../comons/version_css_js.php";
         }
         ?>
 
-
         <!-- MENU -->
         <div class="container bg_blue">
             <div class="content">
@@ -135,7 +120,6 @@ require_once "../comons/version_css_js.php";
                     </div>
 
                     <div class="menu_enlaces" id="menuMobile">
-
                         <nav class="menu_enlaces_a">
                             <p class="closeMenu" id="closeMenu">X</p>
                             <a href="/home/" class="<?php echo $home ?>"><strong>HOME</strong></a>
@@ -176,9 +160,6 @@ require_once "../comons/version_css_js.php";
             </div>
         </div>
 
-
-
-
         <div class="container">
             <div class="content">
                 <div class="politicas">
@@ -209,10 +190,7 @@ require_once "../comons/version_css_js.php";
                             <li>Disclosure of any information at the request of Judges or Courts.</li>
                             <li>Information regarding economic or other data that must be provided to the state, local or regional Administration, for tax, labor or administrative contracting requirements.</li>
                         </p>
-
                     </section>
-
-
                     <section class="politicas_content">
                         <header class="politicas_content_subtitle">
                             <h2>ACCESS TO PERSONAL DATA</h2>
@@ -297,7 +275,6 @@ require_once "../comons/version_css_js.php";
             </div>
         </div>
 
-
         <!-- Section Footer -->
         <div class="container bg_footer1">
             <div class="content">
@@ -321,14 +298,10 @@ require_once "../comons/version_css_js.php";
                 </footer>
             </div>
         </div>
-
-
-
         <?php
         require_once '../comons/btn_top.php';
         ?>
     </main>
-
     <script src="/public/js/carga_diferida.js"></script>
     <script src="/public/js/menu.js"></script>
 </body>
