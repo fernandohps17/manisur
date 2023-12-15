@@ -624,7 +624,9 @@ function update_sitemap_posts()
     $meses_ES = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", " de ");
     $meses_NUM = array("01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "-");
 
-    $currentHour = date('TH:i:sO');
+    // $currentHour = date('TH:i:s');
+    $fechaActual = date('Y-m-d\TH:i:s');
+    // $currentHour = date('TH:i:sO');Y-m-d
 
     foreach ($posts as $value) {
       if (isset($value['update_fecha'])) {
@@ -640,9 +642,9 @@ function update_sitemap_posts()
         $new_date = $fecha_separada[2] . "-" . $fecha_separada[1] . "-" . $fecha_separada[0];
 
         if ($value['seo'] === 'false') {
-          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/nuestros-trabajos/post/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . $currentHour . "</lastmod>\n<priority>1.00</priority>\n</url>\n";
+          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/nuestros-trabajos/post/' . $value['uri'] . "/</loc>\n<lastmod>" . $fechaActual . "+1:00" . "</lastmod>\n<priority>1.00</priority>\n</url>\n";
         } else {
-          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/' . $value['uri'] . "/</loc>\n<lastmod>" . $new_date . $currentHour . "</lastmod>\n<priority>1.00</priority>\n</url>\n";
+          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/' . $value['uri'] . "/</loc>\n<lastmod>" . $fechaActual . "+1:00" . "</lastmod>\n<priority>1.00</priority>\n</url>\n";
         }
       }
     }
@@ -665,22 +667,22 @@ function update_sitemap_landing()
 {
   try {
     $list_url = [
-      "https://manisur.com/",
-      "https://manisur.com/home/",
-      "https://manisur.com/servicios/",
-      "https://manisur.com/services/",
-      "https://manisur.com/nuestros-trabajos/",
-      "https://manisur.com/our-jobs/",
-      "https://manisur.com/contacto/",
-      "https://manisur.com/contact-us/"
+      "https://www.manisur.com/",
+      "https://www.manisur.com/home/",
+      "https://www.manisur.com/servicios/",
+      "https://www.manisur.com/services/",
+      "https://www.manisur.com/nuestros-trabajos/",
+      "https://www.manisur.com/our-jobs/",
+      "https://www.manisur.com/contacto/",
+      "https://www.manisur.com/contact-us/"
     ];
 
-    $fechaActual = date('Y-m-d\TH:i:sO');
+    $fechaActual = date('Y-m-d\TH:i:s');
     $texto = "<?xml version='1.0' encoding='UTF-8'?>\n";
     $texto .= "<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd'>\n";
 
     foreach ($list_url as $value) {
-        $texto .= "<url>\n<loc>". $value ."</loc>\n<lastmod>". "$fechaActual" ."</lastmod>\n<priority>1.00</priority>\n</url>\n";
+        $texto .= "<url>\n<loc>". $value ."</loc>\n<lastmod>". "$fechaActual" ."+1:00"."</lastmod>\n<priority>1.00</priority>\n</url>\n";
       }
     
 
