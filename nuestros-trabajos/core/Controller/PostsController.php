@@ -625,7 +625,8 @@ function update_sitemap_posts()
     $meses_NUM = array("01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "-");
 
     // $currentHour = date('TH:i:s');
-    $fechaActual = date('Y-m-d\TH:i:s');
+    $fechaActual = date('Y-m-d');
+    // $fechaActual = date('Y-m-d\TH:i:s');
     // $currentHour = date('TH:i:sO');Y-m-d
 
     foreach ($posts as $value) {
@@ -642,9 +643,9 @@ function update_sitemap_posts()
         $new_date = $fecha_separada[2] . "-" . $fecha_separada[1] . "-" . $fecha_separada[0];
 
         if ($value['seo'] === 'false') {
-          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/nuestros-trabajos/post/' . $value['uri'] . "/</loc>\n<lastmod>" . $fechaActual . "+1:00" . "</lastmod>\n<priority>1.00</priority>\n</url>\n";
+          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/nuestros-trabajos/post/' . $value['uri'] . "/</loc>\n<lastmod>" . $fechaActual . "</lastmod>\n<priority>1.00</priority>\n</url>\n";
         } else {
-          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/' . $value['uri'] . "/</loc>\n<lastmod>" . $fechaActual . "+1:00" . "</lastmod>\n<priority>1.00</priority>\n</url>\n";
+          $texto .= "<url>\n<loc>https://" . $_SERVER["SERVER_NAME"] . '/' . $value['uri'] . "/</loc>\n<lastmod>" . $fechaActual . "</lastmod>\n<priority>1.00</priority>\n</url>\n";
         }
       }
     }
@@ -677,12 +678,13 @@ function update_sitemap_landing()
       "https://www.manisur.com/contact-us/"
     ];
 
-    $fechaActual = date('Y-m-d\TH:i:s');
+    $fechaActual = date('Y-m-d');
+    // $fechaActual = date('Y-m-d\TH:i:s');
     $texto = "<?xml version='1.0' encoding='UTF-8'?>\n";
     $texto .= "<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd'>\n";
 
     foreach ($list_url as $value) {
-        $texto .= "<url>\n<loc>". $value ."</loc>\n<lastmod>". "$fechaActual" ."+1:00"."</lastmod>\n<priority>1.00</priority>\n</url>\n";
+        $texto .= "<url>\n<loc>". $value ."</loc>\n<lastmod>". "$fechaActual" ."</lastmod>\n<priority>1.00</priority>\n</url>\n";
       }
     
 
