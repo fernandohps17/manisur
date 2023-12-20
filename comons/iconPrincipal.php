@@ -4,7 +4,7 @@
             <div class="icon_principal_img">
                 <picture class="picture-defer">
                     <source class="image source" type='image/webp' data-img="/public/icon/icono-fabrica.webp">
-                    <img class="image" data-img="/public/img/icono-fabrica.png" alt="Manisur Icono de Fabrica" title="Manisur Icono de Fabrica" width="100" height="100">
+                    <img class="image" data-img="/public/img/icono-fabrica.png" alt="Manisur Icono de Fabrica" title="Manisur Icono de Fabrica" width="255" height="255">
                 </picture>
 
                 <div class="icon_principal_content">
@@ -44,7 +44,7 @@
             <div class="icon_principal_img">
                 <picture class="picture-defer">
                     <source class="image source" type='image/webp' data-img="/public/icon/icono-barco.webp">
-                    <img class="image" data-img="/public/img/icono-barca.png" alt="Manisur Icono de Barco" title="Manisur Icono de Borco" width="100" height="100">
+                    <img class="image" data-img="/public/img/icono-barca.png" alt="Manisur Icono de Barco" title="Manisur Icono de Borco" width="255" height="255">
                 </picture>
                 <div class="icon_principal_content">
                     <h2 class="icon_principal_content_title">Naval</h2>
@@ -83,7 +83,7 @@
             <div class="icon_principal_img">
                 <picture class="picture-defer">
                     <source class="image source" type='image/webp' data-img="/public/icon/icono-casa.webp">
-                    <img class="image" data-img="/public/img/icono-casa.png" alt="Manisur Icono de Casa" title="Manisur Icono de Casa" width="100" height="100">
+                    <img class="image" data-img="/public/img/icono-casa.png" alt="Manisur Icono de Casa" title="Manisur Icono de Casa" width="255" height="255">
                 </picture>
 
                 <div class="icon_principal_content">
